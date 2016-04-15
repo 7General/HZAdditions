@@ -1,10 +1,12 @@
+
 //
 //  ToolTipView.h
-//  Wingletter5
 //
-//  Created by Hubert Ryan on 11-6-21.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
+//  Created by 王会洲 on 16/2/19.
+//  Copyright © 2016年 王会洲. All rights reserved.
+//
+
 #import <UIKit/UIKit.h>
 
 #import <Foundation/Foundation.h>

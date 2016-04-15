@@ -10,6 +10,7 @@
 		2521BB191CC0F15F00104DA2 /* tesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2521BB181CC0F15F00104DA2 /* tesViewController.m */; };
 		2521BB1C1CC0F5A600104DA2 /* Draw.m in Sources */ = {isa = PBXBuildFile; fileRef = 2521BB1B1CC0F5A600104DA2 /* Draw.m */; };
 		2521BB1F1CC0F76000104DA2 /* consoleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2521BB1E1CC0F76000104DA2 /* consoleView.m */; };
+		2521BB221CC1175D00104DA2 /* UIButton+FillColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2521BB211CC1175D00104DA2 /* UIButton+FillColor.m */; };
 		257E40151CBB908A0047B4BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 257E40141CBB908A0047B4BF /* main.m */; };
 		257E40181CBB908A0047B4BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 257E40171CBB908A0047B4BF /* AppDelegate.m */; };
 		257E401B1CBB908A0047B4BF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 257E401A1CBB908A0047B4BF /* ViewController.m */; };
@@ -62,6 +63,8 @@
 		2521BB1B1CC0F5A600104DA2 /* Draw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Draw.m; sourceTree = "<group>"; };
 		2521BB1D1CC0F76000104DA2 /* consoleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = consoleView.h; sourceTree = "<group>"; };
 		2521BB1E1CC0F76000104DA2 /* consoleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = consoleView.m; sourceTree = "<group>"; };
+		2521BB201CC1175D00104DA2 /* UIButton+FillColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+FillColor.h"; sourceTree = "<group>"; };
+		2521BB211CC1175D00104DA2 /* UIButton+FillColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+FillColor.m"; sourceTree = "<group>"; };
 		257E40101CBB908A0047B4BF /* Additions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Additions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		257E40141CBB908A0047B4BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		257E40161CBB908A0047B4BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -258,6 +261,8 @@
 				257E40541CBB90BE0047B4BF /* NSString+NULL.m */,
 				257E40551CBB90BE0047B4BF /* NSString+SEL.h */,
 				257E40561CBB90BE0047B4BF /* NSString+SEL.m */,
+				2521BB201CC1175D00104DA2 /* UIButton+FillColor.h */,
+				2521BB211CC1175D00104DA2 /* UIButton+FillColor.m */,
 				257E40571CBB90BE0047B4BF /* UIView+ActivityIndicator.h */,
 				257E40581CBB90BE0047B4BF /* UIView+ActivityIndicator.m */,
 				257E40591CBB90BE0047B4BF /* UIView+Additions.h */,
@@ -440,6 +445,7 @@
 				257E407A1CBB91230047B4BF /* MBProgressHUD.m in Sources */,
 				257E40681CBB90BE0047B4BF /* NSString+MD5.m in Sources */,
 				257E406E1CBB90BE0047B4BF /* UIView+Draw.m in Sources */,
+				2521BB221CC1175D00104DA2 /* UIButton+FillColor.m in Sources */,
 				257E407B1CBB91230047B4BF /* ToolTipView.m in Sources */,
 				257E406C1CBB90BE0047B4BF /* UIView+Additions.m in Sources */,
 				257E406D1CBB90BE0047B4BF /* UIView+Appear.m in Sources */,

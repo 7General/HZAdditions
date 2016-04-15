@@ -1,6 +1,10 @@
+
 //
 //  LoadingHUDView.m
-//  Created by Devin Ross on 7/2/09.
+//
+//
+//  Created by 王会洲 on 16/2/19.
+//  Copyright © 2016年 王会洲. All rights reserved.
 //
 /*
  

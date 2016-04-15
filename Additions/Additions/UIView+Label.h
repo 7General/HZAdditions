@@ -1,9 +1,9 @@
 //
 //  UIView+Label.h
-//  VenusIphone
 //
-//  Created by Joe on 13-11-28.
-//  Copyright (c) 2013年 hoodinn. All rights reserved.
+//
+//  Created by 王会洲 on 16/2/19.
+//  Copyright © 2016年 王会洲. All rights reserved.
 //
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>

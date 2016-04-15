@@ -1,9 +1,9 @@
 //
 //  UIView+RoundedCorners.m
-//  UIViewRoundedCorners
 //
-//  Created by Vashishtha Jogi on 11/20/11.
-//  Copyright (c) 2011 Vashishtha Jogi. All rights reserved.
+//
+//  Created by 王会洲 on 16/2/19.
+//  Copyright © 2016年 王会洲. All rights reserved.
 //
 
 #import "UIView+RoundedCorners.h"

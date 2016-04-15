@@ -1,8 +1,9 @@
 //
 //  UIView+firstResponder.m
-//  Color Calc
 //
-//  Created by Johnnie Walker on 25/01/2010.
+//
+//  Created by 王会洲 on 16/2/19.
+//  Copyright © 2016年 王会洲. All rights reserved.
 //
 
 #import "UIView+firstResponder.h"
