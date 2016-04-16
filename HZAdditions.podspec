@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
     s.author       = { "王会洲" => "wanghuizhou21@163.com" }
     s.platform     = :ios, '6.0'
     s.source       = {:git => 'https://github.com/7General/HZAdditions.git', :tag => s.version}
-    s.source_files  = 'Addition/**/*.{h,m}'
-    
+    s.source_files  = 'Additions/**/*.{h,m}'
+    #     s.source_files = 'Additions/**/*.{h,m}'
     s.requires_arc = true
 end
