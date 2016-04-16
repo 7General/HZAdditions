@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
     s.license      = 'MIT'
     s.authors      = {'HZ' => 'wanghuizhou21@163.com'}
     s.platform     = :ios, '6.0'
-    s.source       = {:git => 'https://github.com/7General/HZAdditions', :tag => s.version}
+    s.source       = {:git => 'https://github.com/7General/HZAdditions', :tag => s.version .git}
     s.source_files = 'Additions/**/*.{h,m}'
     s.requires_arc = true
 end
