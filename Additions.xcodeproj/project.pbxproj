@@ -37,8 +37,6 @@
 		257E407B1CBB91230047B4BF /* ToolTipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 257E40781CBB91230047B4BF /* ToolTipView.m */; };
 		257E407D1CBB919C0047B4BF /* BBTipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 257E407C1CBB919C0047B4BF /* BBTipView.m */; };
 		257E40861CBB99630047B4BF /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 257E40851CBB99630047B4BF /* MainViewController.m */; };
-		A4E58F801CC1400C00D616D7 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = A4E58F7E1CC1400C00D616D7 /* LICENSE */; };
-		A4E58F811CC1400C00D616D7 /* MJRefresh.podspec in Resources */ = {isa = PBXBuildFile; fileRef = A4E58F7F1CC1400C00D616D7 /* MJRefresh.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -121,8 +119,6 @@
 		257E40831CBB96760047B4BF /* Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
 		257E40841CBB99630047B4BF /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		257E40851CBB99630047B4BF /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
-		A4E58F7E1CC1400C00D616D7 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		A4E58F7F1CC1400C00D616D7 /* MJRefresh.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MJRefresh.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,8 +169,6 @@
 		257E40121CBB908A0047B4BF /* Additions */ = {
 			isa = PBXGroup;
 			children = (
-				A4E58F7E1CC1400C00D616D7 /* LICENSE */,
-				A4E58F7F1CC1400C00D616D7 /* MJRefresh.podspec */,
 				257E40481CBB90A50047B4BF /* CustomView */,
 				257E40471CBB909D0047B4BF /* MainViewController */,
 				257E40461CBB90970047B4BF /* Basic */,
@@ -405,8 +399,6 @@
 			files = (
 				257E40231CBB908A0047B4BF /* LaunchScreen.storyboard in Resources */,
 				257E40201CBB908A0047B4BF /* Assets.xcassets in Resources */,
-				A4E58F801CC1400C00D616D7 /* LICENSE in Resources */,
-				A4E58F811CC1400C00D616D7 /* MJRefresh.podspec in Resources */,
 				257E401E1CBB908A0047B4BF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
