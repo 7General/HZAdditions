@@ -21,7 +21,9 @@ pod 'HZAdditions', '~> 1.0.4'
 
 
 请使用最新的版本安装，目前可使用
+```ruby
 pod 'HZAdditions', '~> 1.0.4'
+```
 
 ## 功能列表介绍
 
