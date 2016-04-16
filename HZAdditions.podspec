@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = 'HZAdditions'
-    s.version      = '1.0.0'
+    s.version      = '1.0.1'
     s.summary      = 'An easy way to use HZ-show-alertview'
     s.homepage     = 'https://github.com/7General/HZAdditions'
     s.license      = 'MIT'
