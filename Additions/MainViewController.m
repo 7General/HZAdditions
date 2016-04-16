@@ -74,7 +74,7 @@
     UIButton * loading = [UIButton buttonWithType:UIButtonTypeCustom];
     [loading setBackgroundColor: [UIColor grayColor]];
     [loading setTitle:@"显示消息" forState:UIControlStateNormal];
-    [loading addTarget:self action:@selector(loadClick) forControlEvents:UIControlEventTouchUpInside];
+    //[loading addTarget:self action:@selector(loadClick) forControlEvents:UIControlEventTouchUpInside];
     loading.frame = CGRectMake(10, 100, 90, 40);
     [self.view addSubview:loading];
     
@@ -82,14 +82,14 @@
     UIButton * HUD = [UIButton buttonWithType:UIButtonTypeCustom];
     [HUD setBackgroundColor: [UIColor grayColor]];
     [HUD setTitle:@"LoadingHUD" forState:UIControlStateNormal];
-    [HUD addTarget:self action:@selector(HUDClick) forControlEvents:UIControlEventTouchUpInside];
+    //[HUD addTarget:self action:@selector(HUDClick) forControlEvents:UIControlEventTouchUpInside];
     HUD.frame = CGRectMake(10, 150, 120, 40);
     [self.view addSubview:HUD];
     
     UIButton * ToolTip = [UIButton buttonWithType:UIButtonTypeCustom];
     [ToolTip setBackgroundColor: [UIColor grayColor]];
     [ToolTip setTitle:@"ToolTipView" forState:UIControlStateNormal];
-    [ToolTip addTarget:self action:@selector(ToolTipClick) forControlEvents:UIControlEventTouchUpInside];
+    //[ToolTip addTarget:self action:@selector(ToolTipClick) forControlEvents:UIControlEventTouchUpInside];
     ToolTip.frame = CGRectMake(10, 200, 120, 40);
     [self.view addSubview:HUD];
     
@@ -161,7 +161,7 @@
 //    [self.view addSubview:self.drawView];
 
     
-    NSString * compareTime = @"2016-04-14 12:00:00";
+    NSString * compareTime = @"2016-04-12 12:00:00";
     NSString * currentTimes = [NSDate stringCompareCurrentTime:compareTime];
     NSLog(@"------compare--%@",currentTimes);
     //NSDate *dateEndTime = [NSDate dateFromString:compareTime withFormat:dateFormat];
