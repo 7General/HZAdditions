@@ -106,7 +106,7 @@
 //    // 获取手机uuid
 //    NSString * Guid = [NSString generateGuid];
 //    NSLog(@"----Guid %@",Guid);
-//    
+//
 //    NSString * white = @"line";
 //    BOOL isWhite = white.isWhitespaceAndNewlines;
 //    NSLog(@"---isWhite--%d",isWhite);
