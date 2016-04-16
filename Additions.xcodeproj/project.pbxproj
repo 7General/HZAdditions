@@ -60,7 +60,6 @@
 		2521BB1E1CC0F76000104DA2 /* consoleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = consoleView.m; sourceTree = "<group>"; };
 		2521BB201CC1175D00104DA2 /* UIButton+FillColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+FillColor.h"; sourceTree = "<group>"; };
 		2521BB211CC1175D00104DA2 /* UIButton+FillColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+FillColor.m"; sourceTree = "<group>"; };
-		253EBE031CC2085F00FCCB08 /* Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
 		257E40101CBB908A0047B4BF /* Additions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Additions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		257E40141CBB908A0047B4BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		257E40161CBB908A0047B4BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -230,7 +229,6 @@
 			isa = PBXGroup;
 			children = (
 				257E404A1CBB90BE0047B4BF /* Additions.h */,
-				253EBE031CC2085F00FCCB08 /* Config.h */,
 				257E404B1CBB90BE0047B4BF /* NSDate+Helper.h */,
 				257E404C1CBB90BE0047B4BF /* NSDate+Helper.m */,
 				257E404D1CBB90BE0047B4BF /* NSNumber+Additions.h */,
