@@ -10,14 +10,11 @@
 
 
 #import "MainViewController.h"
-#import "BBTipView.h"
-#import "LoadingHUDView.h"
-
 #import "Additions.h"
 #import "tesViewController.h"
 #import "Draw.h"
 #import "consoleView.h"
-#import "NSDate+Helper.h"
+
 
 @interface MainViewController ()
 
@@ -165,7 +162,6 @@
 
     
     NSString * compareTime = @"2016-04-14 12:00:00";
-    NSString *dateFormat = @"yyyy-MM-dd HH:mm:ss";
     NSString * currentTimes = [NSDate stringCompareCurrentTime:compareTime];
     NSLog(@"------compare--%@",currentTimes);
     //NSDate *dateEndTime = [NSDate dateFromString:compareTime withFormat:dateFormat];

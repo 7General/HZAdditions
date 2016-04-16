@@ -25,17 +25,12 @@
 		257E40681CBB90BE0047B4BF /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 257E40521CBB90BE0047B4BF /* NSString+MD5.m */; };
 		257E40691CBB90BE0047B4BF /* NSString+NULL.m in Sources */ = {isa = PBXBuildFile; fileRef = 257E40541CBB90BE0047B4BF /* NSString+NULL.m */; };
 		257E406A1CBB90BE0047B4BF /* NSString+SEL.m in Sources */ = {isa = PBXBuildFile; fileRef = 257E40561CBB90BE0047B4BF /* NSString+SEL.m */; };
-		257E406B1CBB90BE0047B4BF /* UIView+ActivityIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 257E40581CBB90BE0047B4BF /* UIView+ActivityIndicator.m */; };
 		257E406C1CBB90BE0047B4BF /* UIView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 257E405A1CBB90BE0047B4BF /* UIView+Additions.m */; };
 		257E406D1CBB90BE0047B4BF /* UIView+Appear.m in Sources */ = {isa = PBXBuildFile; fileRef = 257E405C1CBB90BE0047B4BF /* UIView+Appear.m */; };
 		257E406E1CBB90BE0047B4BF /* UIView+Draw.m in Sources */ = {isa = PBXBuildFile; fileRef = 257E405E1CBB90BE0047B4BF /* UIView+Draw.m */; };
 		257E406F1CBB90BE0047B4BF /* UIView+firstResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = 257E40601CBB90BE0047B4BF /* UIView+firstResponder.m */; };
 		257E40701CBB90BE0047B4BF /* UIView+Label.m in Sources */ = {isa = PBXBuildFile; fileRef = 257E40621CBB90BE0047B4BF /* UIView+Label.m */; };
 		257E40711CBB90BE0047B4BF /* UIView+RoundedCorners.m in Sources */ = {isa = PBXBuildFile; fileRef = 257E40641CBB90BE0047B4BF /* UIView+RoundedCorners.m */; };
-		257E40791CBB91230047B4BF /* LoadingHUDView.m in Sources */ = {isa = PBXBuildFile; fileRef = 257E40741CBB91230047B4BF /* LoadingHUDView.m */; };
-		257E407A1CBB91230047B4BF /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 257E40761CBB91230047B4BF /* MBProgressHUD.m */; };
-		257E407B1CBB91230047B4BF /* ToolTipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 257E40781CBB91230047B4BF /* ToolTipView.m */; };
-		257E407D1CBB919C0047B4BF /* BBTipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 257E407C1CBB919C0047B4BF /* BBTipView.m */; };
 		257E40861CBB99630047B4BF /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 257E40851CBB99630047B4BF /* MainViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -94,8 +89,6 @@
 		257E40541CBB90BE0047B4BF /* NSString+NULL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NULL.m"; sourceTree = "<group>"; };
 		257E40551CBB90BE0047B4BF /* NSString+SEL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SEL.h"; sourceTree = "<group>"; };
 		257E40561CBB90BE0047B4BF /* NSString+SEL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SEL.m"; sourceTree = "<group>"; };
-		257E40571CBB90BE0047B4BF /* UIView+ActivityIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ActivityIndicator.h"; sourceTree = "<group>"; };
-		257E40581CBB90BE0047B4BF /* UIView+ActivityIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ActivityIndicator.m"; sourceTree = "<group>"; };
 		257E40591CBB90BE0047B4BF /* UIView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Additions.h"; sourceTree = "<group>"; };
 		257E405A1CBB90BE0047B4BF /* UIView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Additions.m"; sourceTree = "<group>"; };
 		257E405B1CBB90BE0047B4BF /* UIView+Appear.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Appear.h"; sourceTree = "<group>"; };
@@ -108,14 +101,6 @@
 		257E40621CBB90BE0047B4BF /* UIView+Label.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Label.m"; sourceTree = "<group>"; };
 		257E40631CBB90BE0047B4BF /* UIView+RoundedCorners.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RoundedCorners.h"; sourceTree = "<group>"; };
 		257E40641CBB90BE0047B4BF /* UIView+RoundedCorners.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RoundedCorners.m"; sourceTree = "<group>"; };
-		257E40731CBB91230047B4BF /* LoadingHUDView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingHUDView.h; sourceTree = "<group>"; };
-		257E40741CBB91230047B4BF /* LoadingHUDView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingHUDView.m; sourceTree = "<group>"; };
-		257E40751CBB91230047B4BF /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
-		257E40761CBB91230047B4BF /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
-		257E40771CBB91230047B4BF /* ToolTipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolTipView.h; sourceTree = "<group>"; };
-		257E40781CBB91230047B4BF /* ToolTipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToolTipView.m; sourceTree = "<group>"; };
-		257E407C1CBB919C0047B4BF /* BBTipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBTipView.m; sourceTree = "<group>"; };
-		257E407E1CBB91A20047B4BF /* BBTipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBTipView.h; sourceTree = "<group>"; };
 		257E40831CBB96760047B4BF /* Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
 		257E40841CBB99630047B4BF /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		257E40851CBB99630047B4BF /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
@@ -236,9 +221,6 @@
 		257E40481CBB90A50047B4BF /* CustomView */ = {
 			isa = PBXGroup;
 			children = (
-				257E407E1CBB91A20047B4BF /* BBTipView.h */,
-				257E407C1CBB919C0047B4BF /* BBTipView.m */,
-				257E40721CBB91230047B4BF /* MBP */,
 				257E40491CBB90BE0047B4BF /* Additions */,
 				257E40831CBB96760047B4BF /* Config.h */,
 			);
@@ -263,8 +245,6 @@
 				257E40561CBB90BE0047B4BF /* NSString+SEL.m */,
 				2521BB201CC1175D00104DA2 /* UIButton+FillColor.h */,
 				2521BB211CC1175D00104DA2 /* UIButton+FillColor.m */,
-				257E40571CBB90BE0047B4BF /* UIView+ActivityIndicator.h */,
-				257E40581CBB90BE0047B4BF /* UIView+ActivityIndicator.m */,
 				257E40591CBB90BE0047B4BF /* UIView+Additions.h */,
 				257E405A1CBB90BE0047B4BF /* UIView+Additions.m */,
 				257E405B1CBB90BE0047B4BF /* UIView+Appear.h */,
@@ -279,19 +259,6 @@
 				257E40641CBB90BE0047B4BF /* UIView+RoundedCorners.m */,
 			);
 			path = Additions;
-			sourceTree = "<group>";
-		};
-		257E40721CBB91230047B4BF /* MBP */ = {
-			isa = PBXGroup;
-			children = (
-				257E40731CBB91230047B4BF /* LoadingHUDView.h */,
-				257E40741CBB91230047B4BF /* LoadingHUDView.m */,
-				257E40751CBB91230047B4BF /* MBProgressHUD.h */,
-				257E40761CBB91230047B4BF /* MBProgressHUD.m */,
-				257E40771CBB91230047B4BF /* ToolTipView.h */,
-				257E40781CBB91230047B4BF /* ToolTipView.m */,
-			);
-			path = MBP;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -434,19 +401,14 @@
 				257E40861CBB99630047B4BF /* MainViewController.m in Sources */,
 				257E40701CBB90BE0047B4BF /* UIView+Label.m in Sources */,
 				257E401B1CBB908A0047B4BF /* ViewController.m in Sources */,
-				257E407D1CBB919C0047B4BF /* BBTipView.m in Sources */,
 				257E406F1CBB90BE0047B4BF /* UIView+firstResponder.m in Sources */,
 				257E40181CBB908A0047B4BF /* AppDelegate.m in Sources */,
-				257E406B1CBB90BE0047B4BF /* UIView+ActivityIndicator.m in Sources */,
-				257E40791CBB91230047B4BF /* LoadingHUDView.m in Sources */,
 				257E406A1CBB90BE0047B4BF /* NSString+SEL.m in Sources */,
 				257E40151CBB908A0047B4BF /* main.m in Sources */,
 				257E40671CBB90BE0047B4BF /* NSString+Additions.m in Sources */,
-				257E407A1CBB91230047B4BF /* MBProgressHUD.m in Sources */,
 				257E40681CBB90BE0047B4BF /* NSString+MD5.m in Sources */,
 				257E406E1CBB90BE0047B4BF /* UIView+Draw.m in Sources */,
 				2521BB221CC1175D00104DA2 /* UIButton+FillColor.m in Sources */,
-				257E407B1CBB91230047B4BF /* ToolTipView.m in Sources */,
 				257E406C1CBB90BE0047B4BF /* UIView+Additions.m in Sources */,
 				257E406D1CBB90BE0047B4BF /* UIView+Appear.m in Sources */,
 			);
