@@ -14,5 +14,5 @@
 //
 @property (nonatomic, strong) NSString * titleName;
 //
-@property (nonatomic) NSInteger  orderStr;
+@property (nonatomic, assign) NSInteger  orderStr;
 @end
