@@ -91,11 +91,15 @@
     UIButton * loading = [UIButton buttonWithType:UIButtonTypeCustom];
     [loading setBackgroundColor: [UIColor grayColor]];
     [loading setTitle:@"显示消息" forState:UIControlStateNormal];
+    // 设置动态添加的新的titleName属性
     [loading setTitleName:@"titleName"];
+    // 设置动态添加的新的OrderStr属性
     [loading setOrderStr:12];
     [loading addTarget:self action:@selector(loadClick:) forControlEvents:UIControlEventTouchUpInside];
     loading.frame = CGRectMake(10, 100, 90, 40);
     [self.view addSubview:loading];
+    // 设置不同状态下的背景色
+    [loading setBackgroundColor:[UIColor redColor] forState:UIControlStateNormal];
 //
 //    
 //    UIButton * HUD = [UIButton buttonWithType:UIButtonTypeCustom];
