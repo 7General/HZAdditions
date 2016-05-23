@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2521BB221CC1175D00104DA2 /* UIButton+FillColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2521BB211CC1175D00104DA2 /* UIButton+FillColor.m */; };
+		2531BEFE1CC8C49000C5D6B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2531BEFD1CC8C49000C5D6B7 /* Main.storyboard */; };
 		257E40151CBB908A0047B4BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 257E40141CBB908A0047B4BF /* main.m */; };
 		257E40201CBB908A0047B4BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 257E401F1CBB908A0047B4BF /* Assets.xcassets */; };
 		257E40231CBB908A0047B4BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 257E40211CBB908A0047B4BF /* LaunchScreen.storyboard */; };
@@ -53,6 +54,7 @@
 /* Begin PBXFileReference section */
 		2521BB201CC1175D00104DA2 /* UIButton+FillColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+FillColor.h"; sourceTree = "<group>"; };
 		2521BB211CC1175D00104DA2 /* UIButton+FillColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+FillColor.m"; sourceTree = "<group>"; };
+		2531BEFD1CC8C49000C5D6B7 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		257E40101CBB908A0047B4BF /* Additions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Additions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		257E40141CBB908A0047B4BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		257E401F1CBB908A0047B4BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 				257E40491CBB90BE0047B4BF /* Additions */,
 				257E401F1CBB908A0047B4BF /* Assets.xcassets */,
 				257E40211CBB908A0047B4BF /* LaunchScreen.storyboard */,
+				2531BEFD1CC8C49000C5D6B7 /* Main.storyboard */,
 				257E40241CBB908A0047B4BF /* Info.plist */,
 				257E40131CBB908A0047B4BF /* Supporting Files */,
 			);
@@ -367,6 +370,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2531BEFE1CC8C49000C5D6B7 /* Main.storyboard in Resources */,
 				257E40231CBB908A0047B4BF /* LaunchScreen.storyboard in Resources */,
 				257E40201CBB908A0047B4BF /* Assets.xcassets in Resources */,
 			);

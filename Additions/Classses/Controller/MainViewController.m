@@ -32,7 +32,7 @@
  */
 -(void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-    [self.view appear];
+    //[self.view appear];
 }
 
 /**
@@ -42,7 +42,7 @@
  */
 -(void)viewWillDisappear:(BOOL)animated {
     [super viewWillDisappear:animated];
-    [self.view disappearWithCallback:@selector(log)];
+    //[self.view disappearWithCallback:@selector(log)];
 }
 -(void)log {
     NSLog(@"-------");
@@ -56,51 +56,69 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"调一下" style:(UIBarButtonItemStylePlain) target:self action:@selector(click)];
+    
+//    NSMutableDictionary * dict = [[NSMutableDictionary alloc] init];
+//    [dict setValue:@"ddddd" forKey:@"article_id"];
+//    [dict setValue:@"ddddd" forKey:@"articleDate"];
+//    
+//    
+//    
+//    NSLog(@"-----%@",dict);
+//    
+//    
+//    for (NSString * items in dict) {
+//        NSLog(@"---%@",items);
+//    }
     
     
-    
-    NSString * Str = @"1,2,3";
-    //将string字符串转换为array数组
-    NSArray  *array = [Str componentsSeparatedByString:@","];
-    NSLog(@"-----%@",array);
-    //＝＝反向方法
-    //将array数组转换为string字符串
-    NSArray * tempArry = @[@"555555555555"];
-                                                            // componentsJoinedByString
-    NSString *tempString = [tempArry componentsJoinedByString:@"%"];//--分隔符
-    NSLog(@"=======>%@",tempString);
-    
-    
+//    
+//    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"调一下" style:(UIBarButtonItemStylePlain) target:self action:@selector(click)];
+//    
+//    
+//    
+//    NSString * Str = @"1,2,3";
+//    //将string字符串转换为array数组
+//    NSArray  *array = [Str componentsSeparatedByString:@","];
+//    NSLog(@"-----%@",array);
+//    //＝＝反向方法
+//    //将array数组转换为string字符串
+//    NSArray * tempArry = @[@"555555555555"];
+//                                                            // componentsJoinedByString
+//    NSString *tempString = [tempArry componentsJoinedByString:@"%"];//--分隔符
+//    NSLog(@"=======>%@",tempString);
+//    
+//    
     UIButton * loading = [UIButton buttonWithType:UIButtonTypeCustom];
     [loading setBackgroundColor: [UIColor grayColor]];
     [loading setTitle:@"显示消息" forState:UIControlStateNormal];
-    [loading addTarget:self action:@selector(loadClick) forControlEvents:UIControlEventTouchUpInside];
+    [loading setTitleName:@"titleName"];
+    [loading setOrderStr:12];
+    [loading addTarget:self action:@selector(loadClick:) forControlEvents:UIControlEventTouchUpInside];
     loading.frame = CGRectMake(10, 100, 90, 40);
     [self.view addSubview:loading];
-    
-    
-    UIButton * HUD = [UIButton buttonWithType:UIButtonTypeCustom];
-    [HUD setBackgroundColor: [UIColor grayColor]];
-    [HUD setTitle:@"LoadingHUD" forState:UIControlStateNormal];
-    [HUD addTarget:self action:@selector(HUDClick) forControlEvents:UIControlEventTouchUpInside];
-    HUD.frame = CGRectMake(10, 150, 120, 40);
-    [self.view addSubview:HUD];
-    
-    UIButton * ToolTip = [UIButton buttonWithType:UIButtonTypeCustom];
-    [ToolTip setBackgroundColor: [UIColor grayColor]];
-    [ToolTip setTitle:@"ToolTipView" forState:UIControlStateNormal];
-    [ToolTip addTarget:self action:@selector(ToolTipClick) forControlEvents:UIControlEventTouchUpInside];
-    ToolTip.frame = CGRectMake(10, 200, 120, 40);
-    [self.view addSubview:HUD];
-    
-    
-    UIButton * NSNumberTip = [UIButton buttonWithType:UIButtonTypeCustom];
-    [NSNumberTip setBackgroundColor: [UIColor grayColor]];
-    [NSNumberTip setTitle:@"NSNumberTip" forState:UIControlStateNormal];
-    [NSNumberTip addTarget:self action:@selector(NSNumberClick) forControlEvents:UIControlEventTouchUpInside];
-    NSNumberTip.frame = CGRectMake(10, 250, 120, 40);
-    [self.view addSubview:NSNumberTip];
+//
+//    
+//    UIButton * HUD = [UIButton buttonWithType:UIButtonTypeCustom];
+//    [HUD setBackgroundColor: [UIColor grayColor]];
+//    [HUD setTitle:@"LoadingHUD" forState:UIControlStateNormal];
+//    [HUD addTarget:self action:@selector(HUDClick) forControlEvents:UIControlEventTouchUpInside];
+//    HUD.frame = CGRectMake(10, 150, 120, 40);
+//    [self.view addSubview:HUD];
+//    
+//    UIButton * ToolTip = [UIButton buttonWithType:UIButtonTypeCustom];
+//    [ToolTip setBackgroundColor: [UIColor grayColor]];
+//    [ToolTip setTitle:@"ToolTipView" forState:UIControlStateNormal];
+//    [ToolTip addTarget:self action:@selector(ToolTipClick) forControlEvents:UIControlEventTouchUpInside];
+//    ToolTip.frame = CGRectMake(10, 200, 120, 40);
+//    [self.view addSubview:HUD];
+//    
+//    
+//    UIButton * NSNumberTip = [UIButton buttonWithType:UIButtonTypeCustom];
+//    [NSNumberTip setBackgroundColor: [UIColor grayColor]];
+//    [NSNumberTip setTitle:@"NSNumberTip" forState:UIControlStateNormal];
+//    [NSNumberTip addTarget:self action:@selector(NSNumberClick) forControlEvents:UIControlEventTouchUpInside];
+//    NSNumberTip.frame = CGRectMake(10, 250, 120, 40);
+//    [self.view addSubview:NSNumberTip];
     
     /*********************nsstring+additions************************/
 //    // 获取手机uuid
@@ -111,7 +129,7 @@
 //    BOOL isWhite = white.isWhitespaceAndNewlines;
 //    NSLog(@"---isWhite--%d",isWhite);
 //    
-//    // 判断文字是否为空
+    // 判断文字是否为空
 //    NSString * emptyStr = @"111";
 //    BOOL isEmpty = emptyStr.isEmptyOrWhitespace;
 //    NSLog(@"===>>>isEmpty%d",isEmpty);
@@ -127,10 +145,11 @@
 //    CGSize  textSize = [text heightWithFont:[UIFont systemFontOfSize:16] width:120];
 //    NSLog(@"计算出文字高度====%f",textSize.height);
 //    
-//    // 计算MD5
+    // 计算MD5
+//    NSString * testStr = @"article_idNw==article_title5qCH6aKY77ya5qCH6aKY77ya5qCH6aKY77ya5qCH6aKY77ya5qCH6aKY77ya5qCH6aKY77ya5qCH6aKY77yaarticleDateMjAxNi0wNC0xNA==user_idNTkx3A3KHDSDS";
 //    NSString * md5Str = @"admin";
-//    NSLog(@"MD5计算之后---%@",md5Str.md5Hash);
-//    
+//    NSLog(@"MD5计算之后---%@",testStr.md5Hash);
+//
 //    // 查找替换文本中的空格
 //    NSString * exchangStr = @"中 国 人 名 解 放 军";
 //    NSLog(@"----替换之后<<<<：%@",[exchangStr replacedWhiteSpacsByString:@"ddd"]);
@@ -162,17 +181,19 @@
 //    [self.view addSubview:self.drawView];
 
     
-    NSString * compareTime = @"2016-04-14 12:00:00";
-    NSString * currentTimes = [NSDate stringCompareCurrentTime:compareTime];
-    NSLog(@"------compare--%@",currentTimes);
+//    NSString * compareTime = @"2016-04-14 12:00:00";
+//    NSString * currentTimes = [NSDate stringCompareCurrentTime:compareTime];
+//    NSLog(@"------compare--%@",currentTimes);
     //NSDate *dateEndTime = [NSDate dateFromString:compareTime withFormat:dateFormat];
     
     
 }
 
 
--(void)loadClick {
-    NSLog(@"--------------------------------------------");
+-(void)loadClick:(UIButton *)sender {
+    NSLog(@"------%@--------------------%ld--------------",sender.titleName,sender.orderStr);
+    
+    
 //    // 弹出消息体
 //    // BBTipView * bbA = [[BBTipView alloc] initWithView:self.view message:@"message" posY:0];
 //    // 弹出标题 和消息体
@@ -181,8 +202,8 @@
 //    bbA.showTime = 0.8;
 //    [bbA show];
     
-    consoleView * console = [[consoleView alloc] initWithFrame:CGRectMake(0, 100, 320, 300)];
-    [self.view addSubview:console];
+//    consoleView * console = [[consoleView alloc] initWithFrame:CGRectMake(0, 100, 320, 300)];
+//    [self.view addSubview:console];
     
     
 }

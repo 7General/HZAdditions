@@ -9,9 +9,28 @@
 #import "UIButton+FillColor.h"
 #import "objc/runtime.h"
 
+
+//NSString const *orderStrKey = @"orderStrKey";
+
+static const void * orderStrKey = &orderStrKey;
+
 static const void * titleNameBy = &titleNameBy;
+
 @implementation UIButton (FillColor)
+
 @dynamic titleName;
+@dynamic orderStr;
+
+
+-(void)setOrderStr:(NSInteger)orderStr {
+    NSNumber *number = [NSNumber numberWithDouble:orderStr];
+    objc_setAssociatedObject(self, &orderStrKey, number, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+}
+-(NSInteger)orderStr {
+    NSNumber *number = objc_getAssociatedObject(self, &orderStrKey);
+    return number.floatValue;
+}
+
 
 -(void)setTitleName:(NSString *)titleName {
     objc_setAssociatedObject(self, titleNameBy, titleName, OBJC_ASSOCIATION_COPY_NONATOMIC);

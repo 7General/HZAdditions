@@ -11,5 +11,8 @@
 @interface UIButton (FillColor)
 - (void)setBackgroundColor:(UIColor *)backgroundColor forState:(UIControlState)state;
 
+//
 @property (nonatomic, strong) NSString * titleName;
+//
+@property (nonatomic) NSInteger  orderStr;
 @end
