@@ -40,11 +40,20 @@ pod 'HZAdditions', '~> 1.0.4'
 [self.view appear];
 }
 ```
-* 2:获取手机UUID
+* 2:全新的button属性
 ```ruby
-// 获取手机uuid
-NSString * Guid = [NSString generateGuid];
-NSLog(@"----Guid %@",Guid);
+UIButton * loading = [UIButton buttonWithType:UIButtonTypeCustom];
+[loading setBackgroundColor: [UIColor grayColor]];
+[loading setTitle:@"显示消息" forState:UIControlStateNormal];
+// 设置动态添加的新的titleName属性
+[loading setTitleName:@"titleName"];
+// 设置动态添加的新的OrderStr属性
+[loading setOrderStr:12];
+[loading addTarget:self action:@selector(loadClick:) forControlEvents:UIControlEventTouchUpInside];
+loading.frame = CGRectMake(10, 100, 90, 40);
+[self.view addSubview:loading];
+// 设置不同状态下的背景色
+[loading setBackgroundColor:[UIColor redColor] forState:UIControlStateNormal];
 
 ```
 * 3:判断文字是否为空
