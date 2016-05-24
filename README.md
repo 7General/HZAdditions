@@ -10,12 +10,12 @@
 * 可使用cocoapods安装
 最新的如下
 ```ruby
--> HZAdditions (1.0.4)
+-> HZAdditions (1.0.6)
 An easy way to use HZ-show-Additions
-pod 'HZAdditions', '~> 1.0.4'
+pod 'HZAdditions', '~> 1.0.6'
 - Homepage: https://github.com/7General/HZAdditions
 - Source:   https://github.com/7General/HZAdditions.git
-- Versions: 1.0.4, 1.0.3, 1.0.2, 1.0.1 [master repo]
+- Versions: 1.0.6, 1.0.4, 1.0.3, 1.0.2, 1.0.1 [master repo]
 
 ```
 
