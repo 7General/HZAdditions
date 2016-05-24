@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = 'HZAdditions'
-    s.version      = '1.0.4'
+    s.version      = '1.0.5'
     s.summary      = 'An easy way to use HZ-show-Additions'
     s.homepage     = 'https://github.com/7General/HZAdditions'
     s.license      = 'MIT'
