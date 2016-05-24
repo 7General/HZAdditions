@@ -26,6 +26,27 @@ pod 'HZAdditions', '~> 1.0.4'
 ```
 
 ## 功能列表介绍
+* NSString相关属性功能介绍
+  
+   #时间戳转换
+    NSString * timeCuo = @"1464056448";
+    NSLog(@"-----%@",timeCuo.tranclTime);
+   【使用该方法的时候请注意，大中华帝国和美帝国有8个小时的时区差，在改方法中已经预留】
+  
+   #和当前时间对比，计算时间差，月、日、时、分、秒
+    NSString * timeCuo = @"1464056448";
+    NSLog(@"-----%@",timeCuo.tranclTime.DefaultCompareCurrentTime);
+
+
+
+
+
+
+
+
+
+
+
 
 * 1:视图viewwillappear从小到大动画
 
