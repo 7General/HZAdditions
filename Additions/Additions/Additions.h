@@ -11,6 +11,7 @@
 #import "NSString+MD5.h"
 #import "NSString+NULL.h"
 #import "NSString+SEL.h"
+#import "NSString+Helper.h"
 
 #import "UIView+Additions.h"
 #import "UIView+Appear.h"

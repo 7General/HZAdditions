@@ -196,7 +196,8 @@
 
 -(void)loadClick:(UIButton *)sender {
     NSLog(@"------%@--------------------%ld--------------",sender.titleName,sender.orderStr);
-    
+    NSString * timeCuo = @"1464056448";
+    NSLog(@"-----%@",timeCuo.tranclTime.DefaultCompareCurrentTime);
     
 //    // 弹出消息体
 //    // BBTipView * bbA = [[BBTipView alloc] initWithView:self.view message:@"message" posY:0];
