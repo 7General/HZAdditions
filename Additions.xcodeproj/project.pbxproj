@@ -94,7 +94,6 @@
 		257E40641CBB90BE0047B4BF /* UIView+RoundedCorners.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RoundedCorners.m"; sourceTree = "<group>"; };
 		259B331D1CF3F04900F71EC9 /* NSString+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Helper.h"; sourceTree = "<group>"; };
 		259B331E1CF3F04900F71EC9 /* NSString+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Helper.m"; sourceTree = "<group>"; };
-		259B33201CF3F38A00F71EC9 /* HZNSlog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZNSlog.h; sourceTree = "<group>"; };
 		25ED1E4F1CC2189000C57B99 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		25ED1E501CC2189000C57B99 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		25ED1E521CC2189000C57B99 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
@@ -198,7 +197,6 @@
 			isa = PBXGroup;
 			children = (
 				257E404A1CBB90BE0047B4BF /* Additions.h */,
-				259B33201CF3F38A00F71EC9 /* HZNSlog.h */,
 				257E404B1CBB90BE0047B4BF /* NSDate+Helper.h */,
 				257E404C1CBB90BE0047B4BF /* NSDate+Helper.m */,
 				259B331D1CF3F04900F71EC9 /* NSString+Helper.h */,
