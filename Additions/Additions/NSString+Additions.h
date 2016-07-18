@@ -19,6 +19,7 @@
 
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
+#import "HZAdditionsCont.h"
 
 
 
@@ -47,7 +48,7 @@
  * 判断是否为空
  * Determines if the string is empty or contains only whitespace.
  */
-- (BOOL)isEmptyOrWhitespace;
+- (BOOL)isEmptyOrWhitespace; 
 
 /**
  * 转换文字中特俗字符
@@ -98,7 +99,7 @@
  *
  *  @return 字体SIze
  */
-- (CGSize)heightWithFont:(UIFont * )Font width:(CGFloat) width;
+- (CGSize)heightWithFont:(UIFont * )Font width:(CGFloat) width HZAddititonsDeprecated("使用HeightParagraphSpeace: withFont: AndWidth:");
 
 
 

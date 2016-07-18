@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 
-@interface MainViewController : ViewController
+@interface MainViewController : ViewController<UITableViewDelegate,UITableViewDataSource>
 {
      UIActivityIndicatorView *_loadingView;
 }

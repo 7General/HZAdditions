@@ -27,6 +27,8 @@
 		257E40701CBB90BE0047B4BF /* UIView+Label.m in Sources */ = {isa = PBXBuildFile; fileRef = 257E40621CBB90BE0047B4BF /* UIView+Label.m */; };
 		257E40711CBB90BE0047B4BF /* UIView+RoundedCorners.m in Sources */ = {isa = PBXBuildFile; fileRef = 257E40641CBB90BE0047B4BF /* UIView+RoundedCorners.m */; };
 		259B331F1CF3F04900F71EC9 /* NSString+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 259B331E1CF3F04900F71EC9 /* NSString+Helper.m */; };
+		259D51761D3C812E0060E952 /* HZAdditionsCont.m in Sources */ = {isa = PBXBuildFile; fileRef = 259D51751D3C812E0060E952 /* HZAdditionsCont.m */; };
+		259D51791D3C83E60060E952 /* NSString+AttributedString.m in Sources */ = {isa = PBXBuildFile; fileRef = 259D51781D3C83E60060E952 /* NSString+AttributedString.m */; };
 		25ED1E5D1CC2189000C57B99 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25ED1E501CC2189000C57B99 /* AppDelegate.m */; };
 		25ED1E5E1CC2189000C57B99 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25ED1E531CC2189000C57B99 /* MainViewController.m */; };
 		25ED1E5F1CC2189000C57B99 /* tesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25ED1E551CC2189000C57B99 /* tesViewController.m */; };
@@ -94,6 +96,10 @@
 		257E40641CBB90BE0047B4BF /* UIView+RoundedCorners.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RoundedCorners.m"; sourceTree = "<group>"; };
 		259B331D1CF3F04900F71EC9 /* NSString+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Helper.h"; sourceTree = "<group>"; };
 		259B331E1CF3F04900F71EC9 /* NSString+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Helper.m"; sourceTree = "<group>"; };
+		259D51741D3C812E0060E952 /* HZAdditionsCont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZAdditionsCont.h; sourceTree = "<group>"; };
+		259D51751D3C812E0060E952 /* HZAdditionsCont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZAdditionsCont.m; sourceTree = "<group>"; };
+		259D51771D3C83E60060E952 /* NSString+AttributedString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+AttributedString.h"; sourceTree = "<group>"; };
+		259D51781D3C83E60060E952 /* NSString+AttributedString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+AttributedString.m"; sourceTree = "<group>"; };
 		25ED1E4F1CC2189000C57B99 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		25ED1E501CC2189000C57B99 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		25ED1E521CC2189000C57B99 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
@@ -205,6 +211,8 @@
 				257E404E1CBB90BE0047B4BF /* NSNumber+Additions.m */,
 				257E404F1CBB90BE0047B4BF /* NSString+Additions.h */,
 				257E40501CBB90BE0047B4BF /* NSString+Additions.m */,
+				259D51771D3C83E60060E952 /* NSString+AttributedString.h */,
+				259D51781D3C83E60060E952 /* NSString+AttributedString.m */,
 				257E40511CBB90BE0047B4BF /* NSString+MD5.h */,
 				257E40521CBB90BE0047B4BF /* NSString+MD5.m */,
 				257E40531CBB90BE0047B4BF /* NSString+NULL.h */,
@@ -225,6 +233,8 @@
 				257E40621CBB90BE0047B4BF /* UIView+Label.m */,
 				257E40631CBB90BE0047B4BF /* UIView+RoundedCorners.h */,
 				257E40641CBB90BE0047B4BF /* UIView+RoundedCorners.m */,
+				259D51741D3C812E0060E952 /* HZAdditionsCont.h */,
+				259D51751D3C812E0060E952 /* HZAdditionsCont.m */,
 			);
 			path = Additions;
 			sourceTree = "<group>";
@@ -403,6 +413,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				25ED1E601CC2189000C57B99 /* ViewController.m in Sources */,
+				259D51761D3C812E0060E952 /* HZAdditionsCont.m in Sources */,
 				257E40691CBB90BE0047B4BF /* NSString+NULL.m in Sources */,
 				257E40661CBB90BE0047B4BF /* NSNumber+Additions.m in Sources */,
 				257E40651CBB90BE0047B4BF /* NSDate+Helper.m in Sources */,
@@ -417,6 +428,7 @@
 				257E40671CBB90BE0047B4BF /* NSString+Additions.m in Sources */,
 				257E40681CBB90BE0047B4BF /* NSString+MD5.m in Sources */,
 				257E406E1CBB90BE0047B4BF /* UIView+Draw.m in Sources */,
+				259D51791D3C83E60060E952 /* NSString+AttributedString.m in Sources */,
 				25ED1E621CC2189000C57B99 /* Draw.m in Sources */,
 				2521BB221CC1175D00104DA2 /* UIButton+FillColor.m in Sources */,
 				257E406C1CBB90BE0047B4BF /* UIView+Additions.m in Sources */,
@@ -556,7 +568,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Additions/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.uknower.Additions;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -568,7 +580,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Additions/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.uknower.Additions;
 				PRODUCT_NAME = "$(TARGET_NAME)";

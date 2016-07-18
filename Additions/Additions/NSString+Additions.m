@@ -121,9 +121,6 @@
     return [self heightWithFont:Font width:width linebreak:NSStringDrawingUsesLineFragmentOrigin];
 }
 - (CGSize)heightWithFont:(UIFont *)withFont width:(CGFloat)width linebreak:(NSStringDrawingOptions)Options{
-	
-	//CGSize suggestedSize = [self sizeWithFont:withFont constrainedToSize:CGSizeMake(width, FLT_MAX) lineBreakMode:(NSLineBreakMode)lineBreakMode];
-
     NSDictionary * attrs = @{NSFontAttributeName : withFont};
     CGSize maxSize = CGSizeMake(width, MAXFLOAT);
      return [self boundingRectWithSize:maxSize options:Options attributes:attrs context:nil].size;
@@ -210,14 +207,6 @@
 {
     return [self stringByReplacingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
 }
-
-
-
-
-
-
-
-
 
 - (NSString *)passport
 {

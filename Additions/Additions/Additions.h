@@ -12,6 +12,7 @@
 #import "NSString+NULL.h"
 #import "NSString+SEL.h"
 #import "NSString+Helper.h"
+#import "NSString+AttributedString.h"
 
 #import "UIView+Additions.h"
 #import "UIView+Appear.h"

@@ -6,7 +6,8 @@
 //  Copyright © 2016年 王会洲. All rights reserved.
 //
 
-
+#define SCRWIDTH [UIScreen mainScreen].bounds.size.width
+#define SCRHEIGHT [UIScreen mainScreen].bounds.size.height
 
 
 #import "MainViewController.h"
@@ -21,6 +22,8 @@
 
 
 @property (nonatomic, strong) Draw * drawView;
+
+@property (nonatomic, weak) UITableView * myTableView;
 @end
 
 @implementation MainViewController
@@ -88,18 +91,18 @@
 //    NSLog(@"=======>%@",tempString);
 //    
 //    
-    UIButton * loading = [UIButton buttonWithType:UIButtonTypeCustom];
-    [loading setBackgroundColor: [UIColor grayColor]];
-    [loading setTitle:@"显示消息" forState:UIControlStateNormal];
-    // 设置动态添加的新的titleName属性
-    [loading setTitleName:@"titleName"];
-    // 设置动态添加的新的OrderStr属性
-    [loading setOrderStr:12];
-    [loading addTarget:self action:@selector(loadClick:) forControlEvents:UIControlEventTouchUpInside];
-    loading.frame = CGRectMake(10, 100, 90, 40);
-    [self.view addSubview:loading];
-    // 设置不同状态下的背景色
-    [loading setBackgroundColor:[UIColor redColor] forState:UIControlStateNormal];
+//    UIButton * loading = [UIButton buttonWithType:UIButtonTypeCustom];
+//    [loading setBackgroundColor: [UIColor grayColor]];
+//    [loading setTitle:@"显示消息" forState:UIControlStateNormal];
+//    // 设置动态添加的新的titleName属性
+//    [loading setTitleName:@"titleName"];
+//    // 设置动态添加的新的OrderStr属性
+//    [loading setOrderStr:12];
+//    [loading addTarget:self action:@selector(loadClick:) forControlEvents:UIControlEventTouchUpInside];
+//    loading.frame = CGRectMake(10, 100, 90, 40);
+//    [self.view addSubview:loading];
+//    // 设置不同状态下的背景色
+//    [loading setBackgroundColor:[UIColor redColor] forState:UIControlStateNormal];
 //
 //    
 //    UIButton * HUD = [UIButton buttonWithType:UIButtonTypeCustom];
@@ -185,11 +188,35 @@
 //    [self.view addSubview:self.drawView];
 
     
-//    NSString * compareTime = @"2016-04-14 12:00:00";
-//    NSString * currentTimes = [NSDate stringCompareCurrentTime:compareTime];
-//    NSLog(@"------compare--%@",currentTimes);
-    //NSDate *dateEndTime = [NSDate dateFromString:compareTime withFormat:dateFormat];
+    //NSString * compareTime = @"2016-04-14 12:00:00";
     
+    //NSString * currentTimes = [compareTime CompareCurrentTime:@"yyyy-MM-dd"];
+    //NSLog(@"------compare--%@",currentTimes);
+    //NSDate *dateEndTime = [NSDate dateFromString:compareTime withFormat:dateFormat];
+//    self.automaticallyAdjustsScrollViewInsets = NO;
+//    self.navigationController.navigationBar.translucent = YES;
+//    self.navigationController.navigationBar.hidden = YES;
+    
+    NSString * contents = @"最近第三方测试机构给了一份测试报告。罗罗列列的给了将近有20条的问题。我就选出其中两条给大家说一下解决办法1：代码混淆为什么要搞代码混淆：就是把关键函数混淆，如果有反编译的工具，编译出来之后，看不到主要函数的名字。保证程序安全，当然就要搞混淆了。";
+    UILabel * label = [[UILabel alloc] init];
+    label.backgroundColor = [UIColor lightGrayColor];
+    
+    label.numberOfLines = 0;
+    [self.view addSubview:label];
+    //label.attributedText = [contents stringWithParagraphlineSpeace:6 textColor:[UIColor redColor] textFont:[UIFont systemFontOfSize:13] withKeyTextColor:[UIColor blueColor] keyFont:[UIFont systemFontOfSize:20] keyWords:@[@"第三方",@"代码混淆"]];
+    label.attributedText = [contents stringWithParagraphlineSpeace:6 textColor:[UIColor redColor] textFont:[UIFont systemFontOfSize:13]];
+    CGFloat heightsa = [contents HeightParagraphSpeace:6 withFont:[UIFont systemFontOfSize:13] AndWidth:300];
+    label.frame = CGRectMake(10, 100, 300, heightsa);
+    
+    
+    return;
+    UITableView * MyTableview = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, SCRWIDTH, SCRHEIGHT) style:UITableViewStylePlain];
+    MyTableview.delegate = self;
+    MyTableview.dataSource = self;
+    [self.view addSubview:MyTableview];
+    self.myTableView = MyTableview;
+    
+    self.myTableView.tableFooterView = [[UIView alloc] init];
     
 }
 
@@ -240,5 +267,28 @@
     NSString * str = num.formatPriceString;
     NSLog(@"把nsnumber转换成nsstring%@",str);
 }
+
+
+
+
+
+#pragma mark -TABLEVIEW DELEGATE
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return 10;
+}
+
+-(UITableViewCell * )tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    static NSString * ID = @"cell";
+    UITableViewCell * cell = [tableView dequeueReusableCellWithIdentifier:ID];
+    if (cell == nil) {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:ID];
+    }
+    cell.textLabel.text = @"dddddd";
+    return cell;
+}
+
+
+
+
 
 @end

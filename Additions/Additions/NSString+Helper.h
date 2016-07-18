@@ -20,7 +20,7 @@
 /**
  *  时间戳转换---转换格式自定义
  *
- *  @param format 时间戳转换格式
+ *  @param format 时间戳格式
  *
  *  @return 返回转换后的NSString
  */
@@ -36,7 +36,13 @@
  */
 - (NSString *)CompareCurrentTime:(NSString *)format;
 
-
+/**
+ *  与当前事件比较获取事件间隔.
+ *
+ *  转化后的时间格式yyyy-MM-dd HH:mm:sss
+ *
+ *  @return .
+ */
 -(NSString *)DefaultCompareCurrentTime;
 
 
