@@ -123,6 +123,26 @@ NSString * urlBasic = @"http://www.baidu.com/icloud?index=中国&count=10";
 NSLog(@"url------%@",[urlBasic URLEvalutionEncoding]);
 
 ```
+
+* 9:对 富文本编辑
+```objc
+NSString * contents = @"最近第三方测试机构给了一份测试报告。罗罗列列的给了将近有20条的问题。我就选出其中两条给大家说一下解决办法1：代码混淆为什么要搞代码混淆：就是把关键函数混淆，如果有反编译的工具，编译出来之后，看不到主要函数的名字。保证程序安全，当然就要搞混淆了。";  UILabel * label = [[UILabel alloc] init];
+label.backgroundColor = [UIColor lightGrayColor];
+    
+label.numberOfLines = 0;
+[self.view addSubview:label];
+//设置该段文字显示样式、行高、字体颜色、字体大小
+label.attributedText = [contents stringWithParagraphlineSpeace:6 textColor:[UIColor redColor] textFont:[UIFont systemFontOfSize:13]];
+// 获取富文本字体高度与行高、字体大小、所占宽度
+CGFloat heightsa = [contents HeightParagraphSpeace:6 withFont:[UIFont systemFontOfSize:13] AndWidth:300];
+label.frame = CGRectMake(10, 100, 300, heightsa);
+
+//*****另外一种情况 设置关键字特别显示
+label.attributedText = [contents stringWithParagraphlineSpeace:6 textColor:[UIColor redColor] textFont:[UIFont systemFontOfSize:13] withKeyTextColor:[UIColor blueColor] keyFont:[UIFont systemFontOfSize:20] keyWords:@[@"第三方",@"代码混淆"]];
+
+NOTICE:这里就要分别设置非关键字的字体、行高、字体大小。还有我们要设置的关键字的字体、字体大小、要显示的关键字。
+
+```
 ## 其他功能就不一一列举了，请各位看官查看源码。
 
 更多干货，请关注洲洲哥的微信公众号
