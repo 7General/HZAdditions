@@ -29,6 +29,8 @@
 		259B331F1CF3F04900F71EC9 /* NSString+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 259B331E1CF3F04900F71EC9 /* NSString+Helper.m */; };
 		259D51761D3C812E0060E952 /* HZAdditionsCont.m in Sources */ = {isa = PBXBuildFile; fileRef = 259D51751D3C812E0060E952 /* HZAdditionsCont.m */; };
 		259D51791D3C83E60060E952 /* NSString+AttributedString.m in Sources */ = {isa = PBXBuildFile; fileRef = 259D51781D3C83E60060E952 /* NSString+AttributedString.m */; };
+		25CA1D781D80020200CDFC00 /* NSData+AES256.m in Sources */ = {isa = PBXBuildFile; fileRef = 25CA1D751D80020200CDFC00 /* NSData+AES256.m */; };
+		25CA1D791D80020200CDFC00 /* NSString+AES256.m in Sources */ = {isa = PBXBuildFile; fileRef = 25CA1D771D80020200CDFC00 /* NSString+AES256.m */; };
 		25ED1E5D1CC2189000C57B99 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25ED1E501CC2189000C57B99 /* AppDelegate.m */; };
 		25ED1E5E1CC2189000C57B99 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25ED1E531CC2189000C57B99 /* MainViewController.m */; };
 		25ED1E5F1CC2189000C57B99 /* tesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25ED1E551CC2189000C57B99 /* tesViewController.m */; };
@@ -100,6 +102,10 @@
 		259D51751D3C812E0060E952 /* HZAdditionsCont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZAdditionsCont.m; sourceTree = "<group>"; };
 		259D51771D3C83E60060E952 /* NSString+AttributedString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+AttributedString.h"; sourceTree = "<group>"; };
 		259D51781D3C83E60060E952 /* NSString+AttributedString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+AttributedString.m"; sourceTree = "<group>"; };
+		25CA1D741D80020200CDFC00 /* NSData+AES256.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AES256.h"; sourceTree = "<group>"; };
+		25CA1D751D80020200CDFC00 /* NSData+AES256.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AES256.m"; sourceTree = "<group>"; };
+		25CA1D761D80020200CDFC00 /* NSString+AES256.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+AES256.h"; sourceTree = "<group>"; };
+		25CA1D771D80020200CDFC00 /* NSString+AES256.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+AES256.m"; sourceTree = "<group>"; };
 		25ED1E4F1CC2189000C57B99 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		25ED1E501CC2189000C57B99 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		25ED1E521CC2189000C57B99 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
@@ -239,9 +245,21 @@
 			path = Additions;
 			sourceTree = "<group>";
 		};
+		25CA1D731D80020200CDFC00 /* AES256 */ = {
+			isa = PBXGroup;
+			children = (
+				25CA1D741D80020200CDFC00 /* NSData+AES256.h */,
+				25CA1D751D80020200CDFC00 /* NSData+AES256.m */,
+				25CA1D761D80020200CDFC00 /* NSString+AES256.h */,
+				25CA1D771D80020200CDFC00 /* NSString+AES256.m */,
+			);
+			path = AES256;
+			sourceTree = "<group>";
+		};
 		25ED1E4D1CC2189000C57B99 /* Classses */ = {
 			isa = PBXGroup;
 			children = (
+				25CA1D731D80020200CDFC00 /* AES256 */,
 				25ED1E4E1CC2189000C57B99 /* Basic */,
 				25ED1E511CC2189000C57B99 /* Controller */,
 				25ED1E581CC2189000C57B99 /* View */,
@@ -422,6 +440,7 @@
 				257E40701CBB90BE0047B4BF /* UIView+Label.m in Sources */,
 				25ED1E611CC2189000C57B99 /* consoleView.m in Sources */,
 				257E406F1CBB90BE0047B4BF /* UIView+firstResponder.m in Sources */,
+				25CA1D791D80020200CDFC00 /* NSString+AES256.m in Sources */,
 				257E406A1CBB90BE0047B4BF /* NSString+SEL.m in Sources */,
 				257E40151CBB908A0047B4BF /* main.m in Sources */,
 				25ED1E5F1CC2189000C57B99 /* tesViewController.m in Sources */,
@@ -434,6 +453,7 @@
 				257E406C1CBB90BE0047B4BF /* UIView+Additions.m in Sources */,
 				257E406D1CBB90BE0047B4BF /* UIView+Appear.m in Sources */,
 				25ED1E5D1CC2189000C57B99 /* AppDelegate.m in Sources */,
+				25CA1D781D80020200CDFC00 /* NSData+AES256.m in Sources */,
 				259B331F1CF3F04900F71EC9 /* NSString+Helper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

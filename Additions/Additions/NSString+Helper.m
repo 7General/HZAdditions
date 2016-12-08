@@ -17,7 +17,7 @@
  *  @return 返回转换后的NSString
  */
 -(NSString *)tranclTime{
-    return [self TimeWithFormat:@"yyyy-MM-dd HH:mm:sss"];
+    return [self tranclTimeWithFormat:@"yyyy-MM-dd HH:mm:sss"];
 }
 
 /**
@@ -27,7 +27,7 @@
  *
  *  @return 返回转换后的NSString
  */
--(NSString *)TimeWithFormat:(NSString *)format {
+-(NSString *)tranclTimeWithFormat:(NSString *)format {
     NSTimeInterval time=[self doubleValue] ;//+ 28800;//因为时差问题要加8小时 == 28800 sec
     NSDate *detaildate=[NSDate dateWithTimeIntervalSince1970:time];
     NSLog(@"date:%@",[detaildate description]);

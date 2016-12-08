@@ -10,4 +10,4 @@
 
 
 // 过期提醒
-#define HZAddititonsDeprecated(instead) NS_DEPRECATED(2_0, 2_0, 2_0, 2_0, instead)
+#define HZAddititonsDeprecated(instead) NS_DEPRECATED(1_0, 1_0, 2_0, 2_0, instead)

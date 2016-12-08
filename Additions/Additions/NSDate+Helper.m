@@ -30,13 +30,9 @@
 //add by cuizl  计算某一天到达现在的天数
 +(NSInteger) daysFromDate:(NSDate*)fromDate toDate:(NSDate*)toDate
 {
-    NSCalendar* chineseClendar = [ [ NSCalendar alloc ] initWithCalendarIdentifier:NSGregorianCalendar ];
-    
-    NSUInteger unitFlags =NSDayCalendarUnit;
-    
+    NSCalendar* chineseClendar = [ [ NSCalendar alloc ] initWithCalendarIdentifier:NSCalendarIdentifierGregorian];
+    NSUInteger unitFlags =NSCalendarUnitDay;
     NSDateComponents *cps = [chineseClendar components:unitFlags fromDate:fromDate toDate:toDate  options:0];
-    
-   //TT_RELEASE_SAFELY(chineseClendar);
     
     return [cps day];
 }

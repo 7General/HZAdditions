@@ -24,7 +24,7 @@
  *
  *  @return 返回转换后的NSString
  */
-- (NSString *)TimeWithFormat:(NSString *)format;
+- (NSString *)tranclTimeWithFormat:(NSString *)format;
 
 
 /**
