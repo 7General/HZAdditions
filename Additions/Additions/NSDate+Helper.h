@@ -20,12 +20,11 @@
 //add by cuizl  计算某一天到达现在的天数
 +(NSInteger) daysFromDate:(NSDate*)fromDate toDate:(NSDate*)toDate;
 
-
-
 /**
- *  比较当前时间和指定时间
+ *  NSDate格式转换为NSString格式
+ *  @param format 自定义NNString格式
  */
-+(NSString *) stringCompareCurrentTime:(NSString *) compareDate;
+-(NSString *)stringFromDate:(NSString *)format;
 
 
 @end
