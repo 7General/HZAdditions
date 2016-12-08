@@ -7,6 +7,7 @@
 //
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
+#import "HZAdditionsCont.h"
 
 @interface NSString (AttributedString)
 /********************************************************************
@@ -19,7 +20,8 @@
  *******************************************************************/
 -(NSAttributedString *)stringWithParagraphlineSpeace:(CGFloat)lineSpacing
                                            textColor:(UIColor *)textcolor
-                                            textFont:(UIFont *)font;
+                                            textFont:(UIFont *)font ;
+
 
 
 
@@ -40,8 +42,22 @@
                                             textFont:(UIFont *)font
                             withKeyTextColor:(UIColor *)KeyColor
                                              keyFont:(UIFont *)KeyFont
-                                            keyWords:(NSArray *)KeyWords;
+                                            keyWords:(NSArray *)KeyWords HZAddititonsDeprecated("使用stringWithParagraphlineSpeace: NormalAttributeFC: withKeyTextColor:KeyAttributeFC:");
 
+/********************************************************************
+ *  返回包含关键字的富文本编辑
+ *
+ *  @param lineSpacing 行高
+ *  @param NormalAttributeFC   普通文字的属性字典
+ *  @param withKeyTextColor    关键字数组
+ *  @param KeyAttributeFC        关键字的属性字典
+ *
+ *  @return
+ ********************************************************************/
+-(NSAttributedString *)stringWithParagraphlineSpeace:(CGFloat)lineSpacing
+                                   NormalAttributeFC:(NSDictionary *)NormalFC
+                                    withKeyTextColor:(NSArray *)KeyWords
+                                      KeyAttributeFC:(NSDictionary *)keyFC ;
 
 
 

@@ -17,6 +17,7 @@
  *  @return 返回转换后的NSString
  */
 - (NSString *)tranclTime;
+
 /**
  *  时间戳转换---转换格式自定义
  *
@@ -25,7 +26,6 @@
  *  @return 返回转换后的NSString
  */
 - (NSString *)tranclTimeWithFormat:(NSString *)format;
-
 
 /**
  *  与当前事件比较获取事件间隔.
