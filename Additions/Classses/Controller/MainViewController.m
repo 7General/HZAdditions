@@ -20,6 +20,8 @@
 #import "NSString+AES256.h"
 #import "NSString+Helper.h"
 #import "UIView+RoundedCorners.h"
+#import "UIView+WaterMark.h"
+#import "UIImage+WaterMark.h"
 
 
 @interface MainViewController ()
@@ -286,49 +288,61 @@
     //http://comper.udesk.cn/im_client/call_back?agent_id=37776&group_id=27914&c_name=洲洲哥&c_phone=13520866229&timestamp=1478080380
     
     
-    UIView * contet = [[UIView alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
-    contet.backgroundColor = [UIColor redColor];
-    [contet setRoundedCorners:UIRectCornerTopLeft radius:20];
-//    contet.layer.borderWidth = 1;
-    [self.view addSubview:contet];
-    
-    
-    
-    
-    UIButton * btn = [UIButton buttonWithType:UIButtonTypeCustom];
-    btn.frame = CGRectMake(100, 240, 100, 100);
-    btn.backgroundColor = [UIColor redColor];
-    btn.layer.borderWidth = 1;
-    btn.layer.borderColor = [UIColor greenColor].CGColor;
-    btn.borderWhich =  ViewBorderTop | ViewBorderLeft;
-    
-    [btn setRoundedCorners:UIRectCornerTopLeft radius:20];
-    
-    
-    
-    [self.view addSubview:btn];
-    
-    
-    
-    
-    NSString * statTime = @"2016-11-30";
-    
-//    NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
-//    [dateFormatter setDateFormat:@"yyyy-MM-dd"];
-//    NSDate *date = [dateFormatter dateFromString:statTime];
-//    
-//    //实例化一个NSDateFormatter对象
-//    NSDateFormatter *Formatter = [[NSDateFormatter alloc] init];
-//    //设定时间格式,这里可以设置成自己需要的格式
-//    [Formatter setDateFormat:@"yyyyMMdd"];
-//    NSString * resStr = [Formatter stringFromDate:date];
-//    NSLog(@"-----%@",resStr);
-    NSString * res = [self getMonthBeginAndEndWith:statTime];
-    NSLog(@"----%@",res);
-    
+//    UIView * contet = [[UIView alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
+//    contet.backgroundColor = [UIColor redColor];
+//    [contet setRoundedCorners:UIRectCornerTopLeft radius:20];
+////    contet.layer.borderWidth = 1;
+//    [self.view addSubview:contet];
+//
+//
+//
+//
+//    UIButton * btn = [UIButton buttonWithType:UIButtonTypeCustom];
+//    btn.frame = CGRectMake(100, 240, 100, 100);
+//    btn.backgroundColor = [UIColor redColor];
+//    btn.layer.borderWidth = 1;
+//    btn.layer.borderColor = [UIColor greenColor].CGColor;
+//    btn.borderWhich =  ViewBorderTop | ViewBorderLeft;
+//
+//    [btn setRoundedCorners:UIRectCornerTopLeft radius:20];
+//
+//
+//
+//    [self.view addSubview:btn];
+//
+//
+//
+//
+//    NSString * statTime = @"2016-11-30";
+//
+////    NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
+////    [dateFormatter setDateFormat:@"yyyy-MM-dd"];
+////    NSDate *date = [dateFormatter dateFromString:statTime];
+////
+////    //实例化一个NSDateFormatter对象
+////    NSDateFormatter *Formatter = [[NSDateFormatter alloc] init];
+////    //设定时间格式,这里可以设置成自己需要的格式
+////    [Formatter setDateFormat:@"yyyyMMdd"];
+////    NSString * resStr = [Formatter stringFromDate:date];
+////    NSLog(@"-----%@",resStr);
+//    NSString * res = [self getMonthBeginAndEndWith:statTime];
+//    NSLog(@"----%@",res);
+//
 
-    
+    NSLog(@"-----------测试背景图片");
+    UIView *  bgView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, SCRWIDTH,SCRHEIGHT)];
+    [self.view addSubview:bgView];
+
+    [bgView addWatermarkWithUser:@"洲洲哥的技术博客www.osjoin.com" attr:@{NSFontAttributeName:[UIFont systemFontOfSize:16], NSForegroundColorAttributeName:[UIColor lightGrayColor]}];
+
 }
+
+
+
+
+
+
+
 
 - (NSString *)getMonthBeginAndEndWith:(NSString *)dateStr{
     

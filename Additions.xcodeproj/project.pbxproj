@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22AB7FEB1FECEF4100ED4DF3 /* UIView+WaterMark.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AB7FEA1FECEF4100ED4DF3 /* UIView+WaterMark.m */; };
+		22AB7FEE1FECEFD800ED4DF3 /* UIImage+WaterMark.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AB7FED1FECEFD800ED4DF3 /* UIImage+WaterMark.m */; };
 		2521BB221CC1175D00104DA2 /* UIButton+FillColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2521BB211CC1175D00104DA2 /* UIButton+FillColor.m */; };
 		2531BEFE1CC8C49000C5D6B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2531BEFD1CC8C49000C5D6B7 /* Main.storyboard */; };
 		257E40151CBB908A0047B4BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 257E40141CBB908A0047B4BF /* main.m */; };
@@ -57,6 +59,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		22AB7FE91FECEF4100ED4DF3 /* UIView+WaterMark.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+WaterMark.h"; sourceTree = "<group>"; };
+		22AB7FEA1FECEF4100ED4DF3 /* UIView+WaterMark.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+WaterMark.m"; sourceTree = "<group>"; };
+		22AB7FEC1FECEFD800ED4DF3 /* UIImage+WaterMark.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+WaterMark.h"; sourceTree = "<group>"; };
+		22AB7FED1FECEFD800ED4DF3 /* UIImage+WaterMark.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+WaterMark.m"; sourceTree = "<group>"; };
 		2521BB201CC1175D00104DA2 /* UIButton+FillColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+FillColor.h"; sourceTree = "<group>"; };
 		2521BB211CC1175D00104DA2 /* UIButton+FillColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+FillColor.m"; sourceTree = "<group>"; };
 		2531BEFD1CC8C49000C5D6B7 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
@@ -241,6 +247,10 @@
 				257E40641CBB90BE0047B4BF /* UIView+RoundedCorners.m */,
 				259D51741D3C812E0060E952 /* HZAdditionsCont.h */,
 				259D51751D3C812E0060E952 /* HZAdditionsCont.m */,
+				22AB7FE91FECEF4100ED4DF3 /* UIView+WaterMark.h */,
+				22AB7FEA1FECEF4100ED4DF3 /* UIView+WaterMark.m */,
+				22AB7FEC1FECEFD800ED4DF3 /* UIImage+WaterMark.h */,
+				22AB7FED1FECEFD800ED4DF3 /* UIImage+WaterMark.m */,
 			);
 			path = Additions;
 			sourceTree = "<group>";
@@ -439,12 +449,14 @@
 				257E40711CBB90BE0047B4BF /* UIView+RoundedCorners.m in Sources */,
 				257E40701CBB90BE0047B4BF /* UIView+Label.m in Sources */,
 				25ED1E611CC2189000C57B99 /* consoleView.m in Sources */,
+				22AB7FEE1FECEFD800ED4DF3 /* UIImage+WaterMark.m in Sources */,
 				257E406F1CBB90BE0047B4BF /* UIView+firstResponder.m in Sources */,
 				25CA1D791D80020200CDFC00 /* NSString+AES256.m in Sources */,
 				257E406A1CBB90BE0047B4BF /* NSString+SEL.m in Sources */,
 				257E40151CBB908A0047B4BF /* main.m in Sources */,
 				25ED1E5F1CC2189000C57B99 /* tesViewController.m in Sources */,
 				257E40671CBB90BE0047B4BF /* NSString+Additions.m in Sources */,
+				22AB7FEB1FECEF4100ED4DF3 /* UIView+WaterMark.m in Sources */,
 				257E40681CBB90BE0047B4BF /* NSString+MD5.m in Sources */,
 				257E406E1CBB90BE0047B4BF /* UIView+Draw.m in Sources */,
 				259D51791D3C83E60060E952 /* NSString+AttributedString.m in Sources */,
