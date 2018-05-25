@@ -18,5 +18,22 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "HZAdditions/Classes/**/*"
+  "source_files": "HZAdditions/Classes/**/*",
+  "subspecs": [
+    {
+      "name": "ControlHelper",
+      "source_files": "HZAdditions/Classes/ControlHelper/**/*.*",
+      "public_header_files": "HZAdditions/Classes/ControlHelper/**/*.h"
+    },
+    {
+      "name": "NSStringHelper",
+      "source_files": "HZAdditions/Classes/NSStringHelper/**/*.*",
+      "public_header_files": "HZAdditions/Classes/NSStringHelper/**/*.h"
+    },
+    {
+      "name": "UIViewHelper",
+      "source_files": "HZAdditions/Classes/UIViewHelper/**/*.*",
+      "public_header_files": "HZAdditions/Classes/UIViewHelper/**/*.h"
+    }
+  ]
 }
