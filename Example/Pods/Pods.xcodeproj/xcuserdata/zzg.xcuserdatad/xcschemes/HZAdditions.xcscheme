@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9A39CE4BEAD665B445D98E955BA1105D"
+               BlueprintIdentifier = "875F595EED0C773BE5CD8FECFC6B94EF"
                BlueprintName = "HZAdditions"
                ReferencedContainer = "container:Pods.xcodeproj"
                BuildableName = "HZAdditions.framework">
