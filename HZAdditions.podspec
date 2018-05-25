@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HZAdditions'
-  s.version          = '1.1.0'
+  s.version          = '1.1.1'
   s.summary          = 'A short description of HZAdditions.'
 
   s.description      = <<-DESC
@@ -25,20 +25,7 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'HZAdditions/Classes/**/*'
   
-  s.subspec 'ControlHelper' do |ch|
-      ch.source_files = 'HZAdditions/Classes/ControlHelper/**/*.*'
-      ch.public_header_files = 'HZAdditions/Classes/ControlHelper/**/*.h'
-  end
   
-  s.subspec 'NSStringHelper' do |ns|
-      ns.source_files = 'HZAdditions/Classes/NSStringHelper/**/*.*'
-      ns.public_header_files = 'HZAdditions/Classes/NSStringHelper/**/*.h'
-  end
-  
-  s.subspec 'UIViewHelper' do |uh|
-      uh.source_files = 'HZAdditions/Classes/UIViewHelper/**/*.*'
-      uh.public_header_files = 'HZAdditions/Classes/UIViewHelper/**/*.h'
-  end
   
   
 end
