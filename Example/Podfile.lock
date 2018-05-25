@@ -1,0 +1,16 @@
+PODS:
+  - HZAdditions (0.1.0)
+
+DEPENDENCIES:
+  - HZAdditions (from `../`)
+
+EXTERNAL SOURCES:
+  HZAdditions:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HZAdditions: d339900d9d48b5f6c0bf26f544836f484735466b
+
+PODFILE CHECKSUM: a4e90398dd5c3ebdb30b0e322945d8a3e0c8d2af
+
+COCOAPODS: 1.5.0.beta.1

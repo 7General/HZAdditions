@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HZAdditions_Example' do
+  pod 'HZAdditions', :path => '../'
+
+  target 'HZAdditions_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

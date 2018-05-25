@@ -1,0 +1,6 @@
+framework module Pods_HZAdditions_Tests {
+  umbrella header "Pods-HZAdditions_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

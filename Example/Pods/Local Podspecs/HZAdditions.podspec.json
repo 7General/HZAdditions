@@ -1,0 +1,22 @@
+{
+  "name": "HZAdditions",
+  "version": "0.1.0",
+  "summary": "A short description of HZAdditions.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/wanghuizhou21@163.com/HZAdditions",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wanghuizhou21@163.com": "wanghuizhou@guazi.com"
+  },
+  "source": {
+    "git": "https://github.com/wanghuizhou21@163.com/HZAdditions.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "HZAdditions/Classes/**/*"
+}
