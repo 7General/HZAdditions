@@ -29,6 +29,9 @@
 #import "UIView+Label.h"
 #import "UIView+RoundedCorners.h"
 #import "UIView+WaterMark.h"
+#import "NSString+NULL.h"
+#import "NSString+SEL.h"
+#import "UIButton+FillColor.h"
 
 FOUNDATION_EXPORT double HZAdditionsVersionNumber;
 FOUNDATION_EXPORT const unsigned char HZAdditionsVersionString[];

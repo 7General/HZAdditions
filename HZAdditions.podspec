@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HZAdditions'
-  s.version          = '1.1.2'
+  s.version          = '1.1.3'
   s.summary          = 'A short description of HZAdditions.'
 
   s.description      = <<-DESC
@@ -24,6 +24,12 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'HZAdditions/Classes/**/*'
+  
+  ## 模块文件
+  s.subspec "NSStringHelper" do |ns|
+      ns.source_files = 'HZAdditions/Classes/NSStringHelper/*.{h,m}'
+
+  end
   
   
   
