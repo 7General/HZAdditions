@@ -15,6 +15,13 @@
 #import "NSString+Helper.h"
 #import "NSString+MD5.h"
 
+#import "UIView+Additions.h"
+#import "UIView+Appear.h"
+#import "UIView+Draw.h"
+#import "UIView+firstResponder.h"
+#import "UIView+Label.h"
+#import "UIView+RoundedCorners.h"
+
 
 
 
