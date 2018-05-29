@@ -18,20 +18,14 @@
 #import "NSString+AttributedString.h"
 #import "NSString+Helper.h"
 #import "NSString+MD5.h"
-#import "NSString+NULL.h"
-#import "NSString+SEL.h"
-#import "UIButton+FillColor.h"
-#import "UIImage+WaterMark.h"
 #import "UIView+Additions.h"
 #import "UIView+Appear.h"
 #import "UIView+Draw.h"
 #import "UIView+firstResponder.h"
 #import "UIView+Label.h"
 #import "UIView+RoundedCorners.h"
+#import "UIImage+WaterMark.h"
 #import "UIView+WaterMark.h"
-#import "NSString+NULL.h"
-#import "NSString+SEL.h"
-#import "UIButton+FillColor.h"
 
 FOUNDATION_EXPORT double HZAdditionsVersionNumber;
 FOUNDATION_EXPORT const unsigned char HZAdditionsVersionString[];
