@@ -1,7 +1,7 @@
 PODS:
-  - HZAdditions (1.1.8):
-    - HZAdditions/NSStringHelper (= 1.1.8)
-  - HZAdditions/NSStringHelper (1.1.8)
+  - HZAdditions (1.1.9):
+    - HZAdditions/NSStringHelper (= 1.1.9)
+  - HZAdditions/NSStringHelper (1.1.9)
 
 DEPENDENCIES:
   - HZAdditions (from `../`)
@@ -11,7 +11,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  HZAdditions: 1d4a56cd9b0c03f9e67d2677299ec7b5513026b9
+  HZAdditions: 6001b270eaf1bf29355df95b506553eb3cf3f125
 
 PODFILE CHECKSUM: a4e90398dd5c3ebdb30b0e322945d8a3e0c8d2af
 

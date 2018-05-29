@@ -6,16 +6,7 @@
 //  Created by 王会洲 on 16/2/19.
 //  Copyright © 2016年 王会洲. All rights reserved.
 //
-#define NotNilAndNull(_ref)  (((_ref) != nil) && (![(_ref) isEqual:[NSNull null]]))
-#define IsNilOrNull(_ref)   (((_ref) == nil) || ([(_ref) isEqual:[NSNull null]]))
 
-// 字符串是否为空
-#define IsStrEmpty(_ref)    (((_ref) == nil) || ([(_ref) isEqual:[NSNull null]]) ||([(_ref)isEqualToString:@""]))
-// 数组是否为空
-#define IsArrEmpty(_ref)    (((_ref) == nil) || ([(_ref) isEqual:[NSNull null]]) ||([(_ref) count] == 0))
-
-// 字符转换UTF8格式
-#define OC(str) [NSString stringWithCString:(str) encoding:NSUTF8StringEncoding]
 
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
