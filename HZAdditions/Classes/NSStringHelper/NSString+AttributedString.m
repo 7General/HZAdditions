@@ -84,9 +84,7 @@
  *  @param lineSpacing 行高
  *  @param textcolor   字体颜色
  *  @param font        字体
- *  @param KeyColor    关键字字体颜色
- *  @param KeyFont     关键字字体
- *  @param KeyWords    关键字字符数组
+ 
  *
  *  @return <#return value description#>
  ********************************************************************/

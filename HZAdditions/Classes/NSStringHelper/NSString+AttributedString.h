@@ -48,9 +48,7 @@
  *  返回包含关键字的富文本编辑
  *
  *  @param lineSpacing 行高
- *  @param NormalAttributeFC   普通文字的属性字典
- *  @param withKeyTextColor    关键字数组
- *  @param KeyAttributeFC        关键字的属性字典
+ 
  *
  *  @return
  ********************************************************************/
