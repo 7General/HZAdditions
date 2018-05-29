@@ -1,9 +1,11 @@
 PODS:
-  - HZAdditions (1.2.0):
-    - HZAdditions/NSStringHelper (= 1.2.0)
-    - HZAdditions/UIViewHelper (= 1.2.0)
-  - HZAdditions/NSStringHelper (1.2.0)
-  - HZAdditions/UIViewHelper (1.2.0)
+  - HZAdditions (1.2.1):
+    - HZAdditions/NSStringHelper (= 1.2.1)
+    - HZAdditions/UIViewHelper (= 1.2.1)
+    - HZAdditions/WaterMark (= 1.2.1)
+  - HZAdditions/NSStringHelper (1.2.1)
+  - HZAdditions/UIViewHelper (1.2.1)
+  - HZAdditions/WaterMark (1.2.1)
 
 DEPENDENCIES:
   - HZAdditions (from `../`)
@@ -13,7 +15,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  HZAdditions: 7f5d74caf4563a52d9fa004a9e51a56ce2eb5ecc
+  HZAdditions: 9bcdf01ab85bc081d18383e45d995c937cadb6fa
 
 PODFILE CHECKSUM: a4e90398dd5c3ebdb30b0e322945d8a3e0c8d2af
 

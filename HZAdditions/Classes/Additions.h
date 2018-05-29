@@ -22,6 +22,9 @@
 #import "UIView+Label.h"
 #import "UIView+RoundedCorners.h"
 
+#import "UIImage+WaterMark.h"
+#import "UIView+WaterMark.h"
+
 
 
 

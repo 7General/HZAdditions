@@ -24,6 +24,8 @@
 #import "UIView+firstResponder.h"
 #import "UIView+Label.h"
 #import "UIView+RoundedCorners.h"
+#import "UIImage+WaterMark.h"
+#import "UIView+WaterMark.h"
 
 FOUNDATION_EXPORT double HZAdditionsVersionNumber;
 FOUNDATION_EXPORT const unsigned char HZAdditionsVersionString[];

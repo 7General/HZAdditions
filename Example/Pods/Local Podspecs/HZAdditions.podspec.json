@@ -1,6 +1,6 @@
 {
   "name": "HZAdditions",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "summary": "A short description of HZAdditions.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/wanghuizhou21@163.com/HZAdditions",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/7General/HZAdditions.git",
-    "tag": "1.2.0"
+    "tag": "1.2.1"
   },
   "platforms": {
     "ios": "8.0"
@@ -28,6 +28,10 @@
     {
       "name": "UIViewHelper",
       "source_files": "HZAdditions/Classes/UIViewHelper/*.{h,m}"
+    },
+    {
+      "name": "WaterMark",
+      "source_files": "HZAdditions/Classes/WaterMark/*.{h,m}"
     }
   ]
 }

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HZAdditions'
-  s.version          = '1.2.0'
+  s.version          = '1.2.1'
   s.summary          = 'A short description of HZAdditions.'
 
   s.description      = <<-DESC
@@ -35,9 +35,9 @@ TODO: Add long description of the pod here.
       uh.source_files = 'HZAdditions/Classes/UIViewHelper/*.{h,m}'
   end
   
-  #s.subspec "WaterMark" do |wm|
-  #    wm.source_files = 'HZAdditions/Classes/WaterMark/*.{h,m}'
-  #end
+  s.subspec "WaterMark" do |wm|
+      wm.source_files = 'HZAdditions/Classes/WaterMark/*.{h,m}'
+  end
   
   
 end
