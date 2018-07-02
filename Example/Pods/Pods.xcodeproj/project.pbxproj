@@ -12,6 +12,8 @@
 		0A8EE55FB50AF44E343938C8EFF691BC /* UIView+RoundedCorners.m in Sources */ = {isa = PBXBuildFile; fileRef = 637CB357A3A9E9DD466A0075FD3C1573 /* UIView+RoundedCorners.m */; };
 		1D63359D698CEAFD4EE0588D4EE58E64 /* UIView+WaterMark.m in Sources */ = {isa = PBXBuildFile; fileRef = E598D99563304CBD2A3C5AC7EA865F43 /* UIView+WaterMark.m */; };
 		20147321BE0BDF5FDE935EBF868EB1F3 /* UIView+RoundedCorners.h in Headers */ = {isa = PBXBuildFile; fileRef = 26AAA19E70164E132756E718A211E8D9 /* UIView+RoundedCorners.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22335AA020EA115C005687A7 /* PageControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 22335A9E20EA115C005687A7 /* PageControl.h */; };
+		22335AA120EA115C005687A7 /* PageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 22335A9F20EA115C005687A7 /* PageControl.m */; };
 		238C27F962A9A01DB5597CA03784A451 /* NSString+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = FEE06F78B655D1BF60D8777937C290A1 /* NSString+Helper.m */; };
 		34FC61BC2A61769DCC40872B0E34A90C /* UIImage+WaterMark.m in Sources */ = {isa = PBXBuildFile; fileRef = 24FD754657E717CAE7F968E62F77B7F1 /* UIImage+WaterMark.m */; };
 		36D3505657D41D93A03B4001BA903486 /* NSString+Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 753CE154F330472E2F599644C9355A98 /* NSString+Helper.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -67,10 +69,12 @@
 		0A06CE302353E6219E6278C204B81099 /* Pods-HZAdditions_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HZAdditions_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		0ADBDB5CF21CBBB6A0092A91AB343438 /* UIView+Draw.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Draw.m"; path = "HZAdditions/Classes/UIViewHelper/UIView+Draw.m"; sourceTree = "<group>"; };
 		0F59AAD5A35DD2D885E01B80FF15B619 /* NSNumber+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNumber+Additions.h"; path = "HZAdditions/Classes/NSStringHelper/NSNumber+Additions.h"; sourceTree = "<group>"; };
-		11D04B18CE5FACA9830AB958EE46CC91 /* HZAdditions.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = HZAdditions.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		11D04B18CE5FACA9830AB958EE46CC91 /* HZAdditions.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = HZAdditions.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		15B6399A08F03040156210A86473C871 /* UIView+Label.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Label.h"; path = "HZAdditions/Classes/UIViewHelper/UIView+Label.h"; sourceTree = "<group>"; };
 		1B64932FB2877290B0529534482C6389 /* Pods-HZAdditions_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HZAdditions_Tests.modulemap"; sourceTree = "<group>"; };
 		1D342936A06FCCF2602473CB8025C553 /* UIView+Appear.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Appear.m"; path = "HZAdditions/Classes/UIViewHelper/UIView+Appear.m"; sourceTree = "<group>"; };
+		22335A9E20EA115C005687A7 /* PageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageControl.h; sourceTree = "<group>"; };
+		22335A9F20EA115C005687A7 /* PageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageControl.m; sourceTree = "<group>"; };
 		23079ABB0B2B32FC30E55DD87B589889 /* Pods-HZAdditions_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HZAdditions_Example-resources.sh"; sourceTree = "<group>"; };
 		2373969D5E4C3AD121CE90E6B5E65D37 /* NSString+MD5.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+MD5.h"; path = "HZAdditions/Classes/NSStringHelper/NSString+MD5.h"; sourceTree = "<group>"; };
 		24FD754657E717CAE7F968E62F77B7F1 /* UIImage+WaterMark.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+WaterMark.m"; path = "HZAdditions/Classes/WaterMark/UIImage+WaterMark.m"; sourceTree = "<group>"; };
@@ -82,13 +86,13 @@
 		3ABBC1DCF64F7C9C5E73C08864C40B25 /* UIView+WaterMark.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+WaterMark.h"; path = "HZAdditions/Classes/WaterMark/UIView+WaterMark.h"; sourceTree = "<group>"; };
 		3C980BCEB299966BDFB23D446A8D2568 /* UIView+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Additions.h"; path = "HZAdditions/Classes/UIViewHelper/UIView+Additions.h"; sourceTree = "<group>"; };
 		3CB20B86A5D6A3F9A387A3EAFDC25722 /* UIImage+WaterMark.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+WaterMark.h"; path = "HZAdditions/Classes/WaterMark/UIImage+WaterMark.h"; sourceTree = "<group>"; };
-		42267F6D309012E7F587E42928E4E81C /* Pods_HZAdditions_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HZAdditions_Example.framework; path = "Pods-HZAdditions_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42267F6D309012E7F587E42928E4E81C /* Pods_HZAdditions_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HZAdditions_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4244BBCDF02ED6C46E5EE3B40C4119E7 /* NSNumber+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNumber+Additions.m"; path = "HZAdditions/Classes/NSStringHelper/NSNumber+Additions.m"; sourceTree = "<group>"; };
 		44C311B5095DA662565384ADE6A6336F /* UIView+firstResponder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+firstResponder.m"; path = "HZAdditions/Classes/UIViewHelper/UIView+firstResponder.m"; sourceTree = "<group>"; };
-		4827DA4C5B73395156DC74E6422E8645 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		4827DA4C5B73395156DC74E6422E8645 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4ADBBCB46797660A862F50D7B3E011A0 /* Pods-HZAdditions_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HZAdditions_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4E8ED5121E00F79E020874E7A88E91E0 /* Pods-HZAdditions_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HZAdditions_Tests-umbrella.h"; sourceTree = "<group>"; };
-		5842FE1DEB04F2616BA5F601F77757DD /* HZAdditions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HZAdditions.framework; path = HZAdditions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5842FE1DEB04F2616BA5F601F77757DD /* HZAdditions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HZAdditions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		59AC239299835201594B292E31FB1191 /* HZAdditionsCont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HZAdditionsCont.h; path = HZAdditions/Classes/NSStringHelper/HZAdditionsCont.h; sourceTree = "<group>"; };
 		5C82118685F93B7D735029F291BE69A0 /* HZAdditions-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HZAdditions-prefix.pch"; sourceTree = "<group>"; };
 		6130E4234EDF5078CF73D595C8A16844 /* NSString+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Additions.h"; path = "HZAdditions/Classes/NSStringHelper/NSString+Additions.h"; sourceTree = "<group>"; };
@@ -99,7 +103,7 @@
 		6652E24F16FBD1F8C80716AEC66110E5 /* Pods-HZAdditions_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HZAdditions_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6A6051C1E12D0C652ECCA9B98C9D3FCF /* NSString+MD5.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+MD5.m"; path = "HZAdditions/Classes/NSStringHelper/NSString+MD5.m"; sourceTree = "<group>"; };
 		6DF23BE8596B97A34B768C36E8A638A0 /* Pods-HZAdditions_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HZAdditions_Tests-resources.sh"; sourceTree = "<group>"; };
-		709C3D249E294ACDF09CE6DD2670DB84 /* Pods_HZAdditions_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HZAdditions_Tests.framework; path = "Pods-HZAdditions_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		709C3D249E294ACDF09CE6DD2670DB84 /* Pods_HZAdditions_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HZAdditions_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		753CE154F330472E2F599644C9355A98 /* NSString+Helper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Helper.h"; path = "HZAdditions/Classes/NSStringHelper/NSString+Helper.h"; sourceTree = "<group>"; };
 		7C8753B4A7D8506DA248B9E72FA507B0 /* Pods-HZAdditions_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HZAdditions_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		7D47575B7954BFE4E880417F5375B7B3 /* HZAdditionsCont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HZAdditionsCont.m; path = HZAdditions/Classes/NSStringHelper/HZAdditionsCont.m; sourceTree = "<group>"; };
@@ -108,7 +112,7 @@
 		87B04A0B161A582A0AABEA55C69A72E3 /* HZAdditions-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HZAdditions-umbrella.h"; sourceTree = "<group>"; };
 		90ACC1BC5F043DA9A9666AAB1AF8AA14 /* HZAdditions.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HZAdditions.xcconfig; sourceTree = "<group>"; };
 		921FCF582255D9082882B3E1C9C98533 /* Pods-HZAdditions_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HZAdditions_Example.modulemap"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		952C913145F5E7A0F5E60B8B8A5448C5 /* UIView+Label.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Label.m"; path = "HZAdditions/Classes/UIViewHelper/UIView+Label.m"; sourceTree = "<group>"; };
 		98B15F02A2661C6D9953D3D445E12510 /* Pods-HZAdditions_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HZAdditions_Example-dummy.m"; sourceTree = "<group>"; };
 		A98E8F66737305BA87E006D5D8B4B243 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -122,7 +126,7 @@
 		E598D99563304CBD2A3C5AC7EA865F43 /* UIView+WaterMark.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+WaterMark.m"; path = "HZAdditions/Classes/WaterMark/UIView+WaterMark.m"; sourceTree = "<group>"; };
 		E66F66B637AB7D079B3CFC310BA53EEB /* Pods-HZAdditions_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HZAdditions_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		EADC41532877FFD7ED7AF7499B10D658 /* NSString+AttributedString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+AttributedString.m"; path = "HZAdditions/Classes/NSStringHelper/NSString+AttributedString.m"; sourceTree = "<group>"; };
-		EE39A09A709661891E1491719CDCDB02 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		EE39A09A709661891E1491719CDCDB02 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		FA8CF3ECB0B12182F9D6769C25C13782 /* Pods-HZAdditions_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HZAdditions_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		FEE06F78B655D1BF60D8777937C290A1 /* NSString+Helper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Helper.m"; path = "HZAdditions/Classes/NSStringHelper/NSString+Helper.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -286,6 +290,8 @@
 		D6B1AC4800B043DED8D42D4E0A212A20 /* UIViewHelper */ = {
 			isa = PBXGroup;
 			children = (
+				22335A9E20EA115C005687A7 /* PageControl.h */,
+				22335A9F20EA115C005687A7 /* PageControl.m */,
 				3C980BCEB299966BDFB23D446A8D2568 /* UIView+Additions.h */,
 				096076368A9DC69F3ABB464885D159A4 /* UIView+Additions.m */,
 				C519AE0F14928593908B2718788B4466 /* UIView+Appear.h */,
@@ -360,6 +366,7 @@
 				E8005628D30B0C1CED70352BABA41EEE /* Additions.h in Headers */,
 				AF5FD231A16D6B46DA0EB5F9675F9ABB /* HZAdditions-umbrella.h in Headers */,
 				A63EBC76ED7F881FCD94ADAC7692D7E6 /* HZAdditionsCont.h in Headers */,
+				22335AA020EA115C005687A7 /* PageControl.h in Headers */,
 				BF6D43CB704CB1611E9311EE0028C1FB /* NSDate+Helper.h in Headers */,
 				D2344CEEF5729B5EB69A3A9C634BDAA8 /* NSNumber+Additions.h in Headers */,
 				8C7EF34F9DB04080929DA5E1C0053E38 /* NSString+Additions.h in Headers */,
@@ -491,6 +498,7 @@
 				7DD05070BA1E6705CF7E76861BADD24A /* NSString+MD5.m in Sources */,
 				34FC61BC2A61769DCC40872B0E34A90C /* UIImage+WaterMark.m in Sources */,
 				3AFB881058EF631B7D7E22BFB84F0277 /* UIView+Additions.m in Sources */,
+				22335AA120EA115C005687A7 /* PageControl.m in Sources */,
 				8BED9AA3A3487239C6F5818CF37690E6 /* UIView+Appear.m in Sources */,
 				3D4FD0CC411B3238155079EF0243028E /* UIView+Draw.m in Sources */,
 				9F2886427B9970FCC890411B08C274FE /* UIView+firstResponder.m in Sources */,
