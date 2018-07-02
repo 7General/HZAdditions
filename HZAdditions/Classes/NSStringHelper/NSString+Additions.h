@@ -135,5 +135,6 @@
 - (NSString *)passport;
 
 - (NSString *)URLEncoding;
+- (NSString *)URLDecoding;
 
 @end

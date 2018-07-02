@@ -7,6 +7,7 @@
 //
 
 #import "HZViewController.h"
+#import <HZAdditions/NSString+Additions.h>
 
 
 @interface HZViewController ()
@@ -18,7 +19,14 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    NSString * urlBasic = @"http://www.baidu.com/icloud?index=中国&count=10";
+    NSString * encodString = [urlBasic URLEvalutionEncoding];
+    NSLog(@"encodString------%@",encodString);
+    NSString * deencodString = [encodString URLDecoding];
+    NSLog(@"deencodString------%@",deencodString);
+    
+    
+    
 }
 
 - (void)didReceiveMemoryWarning
