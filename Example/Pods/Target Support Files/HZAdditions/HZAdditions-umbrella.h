@@ -21,6 +21,7 @@
 #import "NSString+NULL.h"
 #import "NSString+SEL.h"
 #import "UIButton+FillColor.h"
+#import "UIImage+Helper.h"
 #import "UIView+Additions.h"
 #import "UIView+Appear.h"
 #import "UIView+Draw.h"

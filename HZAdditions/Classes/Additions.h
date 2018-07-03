@@ -25,6 +25,7 @@
 #import "UIView+Label.h"
 #import "UIView+RoundedCorners.h"
 #import "UIButton+FillColor.h"
+#import "UIImage+Helper.h"
 
 #import "UIImage+WaterMark.h"
 #import "UIView+WaterMark.h"
