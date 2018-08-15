@@ -159,8 +159,7 @@ HZAdditions is available under the MIT license. See the LICENSE file for more in
 
 | 功能        | 相关类   |  更新日期  |
 | --------   | -----:  | :----:  |
-| 去掉导航栏底线     | UINavigationController+NavigationBar.h
-                      UIViewController+NavigationBar|   20180815     |
+| 去掉导航栏底线     | UINavigationController+NavigationBar.h UIViewController+NavigationBar.h |   20180815     |
 
 
 
