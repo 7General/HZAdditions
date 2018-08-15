@@ -26,11 +26,21 @@
     return nil;
 }
 
+/**
+ 隐藏导航栏底线
+ 
+ @param viewController 当前的控制器
+ */
 - (void) findHairlineImageViewUnderViewController:(UIViewController *)viewController {
     viewController.navBarHairlineImageView = [self findHairlineImageViewUnder:self.navigationBar];
     viewController.navBarHairlineImageView.hidden = YES;
 }
 
+/**
+ 显示当前导航栏底线
+ 
+ @param viewController 当前控制器
+ */
 - (void) hiddenHairlineImageViewUnderViewContro:(UIViewController *)viewController {
     viewController.navBarHairlineImageView = [self findHairlineImageViewUnder:self.navigationBar];
     viewController.navBarHairlineImageView.hidden = NO;
