@@ -1,8 +1,8 @@
 //
 //  UINavigationController+Helper.h
-//  autorelease pool
+//  
 //
-//  Created by zzg on 2018/8/14.
+//  Created by 王会洲 on 2018/8/14.
 //  Copyright © 2018年 zzg. All rights reserved.
 //
 
