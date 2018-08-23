@@ -154,21 +154,31 @@ pod 'HZAdditions'
 
 wanghuizhou21@163.com
 
-## License
-HZAdditions is available under the MIT license. See the LICENSE file for more info.
+### 版本更新日志
 
-| 功能        | 相关类   |  更新日期  |
-| --------   | -----:  | :----:  |
-| 去掉导航栏底线     | UINavigationController+NavigationBar.h  UIViewController+NavigationBar.h |   20180815     |
+```
+# 2018/08/15
+# 版本：1.0.6
+# 1. 增加功能去掉导航栏底线
+# 2. UINavigationController+NavigationBar.h
+     UIViewController+NavigationBar.h
+#--------------------------------------------
+
+# 备注：
+#		1.security 命令会报警告,忽略即可:security: SecPolicySetValue: One or more parameters passed to a function were not valid.
+#		2.支持Xcode8.0及以上版本（8.0前没有测试过）
+
+
+```
 
 
 
 更多干货，请关注洲洲哥的微信公众号
 
 ![(logo)](https://mmbiz.qlogo.cn/mmbiz/wFa30ADx7kLiboiaPKbKSTypo5VSAOShxYUf5zZ4JgQqadyy8J6GzHFvfAYicu5F8Ew0ngVibRM8qcaSxtjyX3blPA/0?wx_fmt=jpeg)
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
+
+
 
 
 
