@@ -165,8 +165,7 @@ wanghuizhou21@163.com
 #--------------------------------------------
 
 # 备注：
-#		1.security 命令会报警告,忽略即可:security: SecPolicySetValue: One or more parameters passed to a function were not valid.
-#		2.支持Xcode8.0及以上版本（8.0前没有测试过）
+# 1.支持Xcode8.0及以上版本（8.0前没有测试过）
 
 
 ```
