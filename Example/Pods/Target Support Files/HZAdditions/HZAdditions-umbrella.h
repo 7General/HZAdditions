@@ -29,6 +29,7 @@
 #import "UIView+firstResponder.h"
 #import "UIView+Label.h"
 #import "UIView+RoundedCorners.h"
+#import "UIView+Screenshots.h"
 #import "UIViewController+NavigationBar.h"
 #import "UIImage+WaterMark.h"
 #import "UIView+WaterMark.h"
