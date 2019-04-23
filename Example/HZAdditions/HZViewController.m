@@ -61,6 +61,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    
     //    NSString * urlBasic = @"http://www.baidu.com/icloud?index=中国&count=10";
     //    NSString * encodString = [urlBasic URLEvalutionEncoding];
     //    NSLog(@"encodString------%@",encodString);
@@ -85,10 +87,25 @@
 //    imageView.image = [UIImage RevRectImageColor:[UIColor redColor] forRect:(CGRectMake(0, 0, 20, 20))];
     //imageView.image = [UIImage RevRectBorderImageColor:[UIColor redColor] forRect:(CGRectMake(0, 0, 50, 50))];
 
+    
+}
+
+/* 添加背景墙 */
+- (void)addWaterMark {
+    NSDictionary* attrs = @{
+                            NSFontAttributeName:[UIFont fontWithName:@"AmericanTypewriter" size:12],
+                            NSForegroundColorAttributeName:[UIColor redColor]
+                            };
+    [self.view addWatermarkWithUser:@"12312312123" attr:attrs];
+}
+
+/* 截图 */
+- (void)printScreen {
     UITableView *tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height) style:UITableViewStylePlain];
     tableView.delegate = self;
     tableView.dataSource = self;
     [self.view addSubview:tableView];
+    
     self.tableView = tableView;
     
     
