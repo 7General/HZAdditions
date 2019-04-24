@@ -7,12 +7,14 @@
 //
 
 #import "HZAppDelegate.h"
+#import "HZAppDelegate+GZCScreenDisplay.h"
 
 @implementation HZAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+     [self switchNewOrientation:GZCScreenDisplayTypePortrait view:self.window];
     return YES;
 }
 

@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7F0E2B6A0B604478FF22820DE07CF244"
+               BlueprintIdentifier = "B6E0A460819686DCAB08ED1F0FC2DE52"
                BuildableName = "Pods_HZAdditions_Tests.framework"
                BlueprintName = "Pods-HZAdditions_Tests"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -26,7 +26,6 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      language = ""
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
@@ -37,7 +36,6 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      language = ""
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
@@ -47,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7F0E2B6A0B604478FF22820DE07CF244"
+            BlueprintIdentifier = "B6E0A460819686DCAB08ED1F0FC2DE52"
             BuildableName = "Pods_HZAdditions_Tests.framework"
             BlueprintName = "Pods-HZAdditions_Tests"
             ReferencedContainer = "container:Pods.xcodeproj">

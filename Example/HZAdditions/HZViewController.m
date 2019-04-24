@@ -9,7 +9,7 @@
 #import "HZViewController.h"
 
 #import <HZAdditions/Additions.h>
-
+#import "HZAppDelegate+GZCScreenDisplay.h"
 
 @interface HZViewController ()<UITableViewDataSource,UITableViewDelegate>
 
@@ -86,8 +86,15 @@
 
 //    imageView.image = [UIImage RevRectImageColor:[UIColor redColor] forRect:(CGRectMake(0, 0, 20, 20))];
     //imageView.image = [UIImage RevRectBorderImageColor:[UIColor redColor] forRect:(CGRectMake(0, 0, 50, 50))];
-
+    [self addWaterMark];
     
+}
+
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    
+    HZAppDelegate * applegate = ((HZAppDelegate *)[UIApplication sharedApplication].delegate);
+    [applegate switchNewOrientation:GZCScreenDisplayTypeRight view:self.view];
+    [applegate forceInterfaceOrientation:(UIInterfaceOrientationLandscapeRight)];
 }
 
 /* 添加背景墙 */
