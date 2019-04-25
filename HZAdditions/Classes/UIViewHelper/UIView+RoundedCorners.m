@@ -98,7 +98,22 @@
     [vi.layer addSublayer:border];
 }
 
-
+/*设置圆角和边框*/
+- (void)addRoundedCornersBorder:(UIRectCorner)corners borderWidth:(CGFloat)width withRadii:(CGSize)radii borderColor:(UIColor *)color {
+    UIBezierPath *rounded = [UIBezierPath bezierPathWithRoundedRect:self.bounds byRoundingCorners:corners cornerRadii:radii];
+    CAShapeLayer *shapLayer = [[CAShapeLayer alloc] init];
+    [shapLayer setPath:rounded.CGPath];
+    self.layer.mask = shapLayer;
+    
+    CAShapeLayer *borderLayer = [CAShapeLayer layer];
+    borderLayer.frame = self.bounds;
+    borderLayer.lineWidth = width;
+    borderLayer.strokeColor = color.CGColor;
+    borderLayer.fillColor = [UIColor clearColor].CGColor;
+    borderLayer.path = rounded.CGPath;
+    
+    [self.layer insertSublayer:borderLayer atIndex:0];
+}
 
 
 

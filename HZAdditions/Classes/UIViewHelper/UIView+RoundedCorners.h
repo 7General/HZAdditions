@@ -23,4 +23,14 @@ typedef NS_ENUM(NSInteger, ViewBorder) {
 
 -(void)setRoundedCorners:(UIRectCorner)corners radius:(CGFloat)radius;
 
+/**
+ 设置圆角和边框共存
+ 
+ @param corners 位置
+ @param width 边宽
+ @param radii 角度
+ @param color 边的颜色
+ */
+- (void)addRoundedCornersBorder:(UIRectCorner)corners borderWidth:(CGFloat)width withRadii:(CGSize)radii borderColor:(UIColor *)color;
+
 @end
