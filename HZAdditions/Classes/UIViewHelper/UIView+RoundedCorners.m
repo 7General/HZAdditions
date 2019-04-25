@@ -115,6 +115,20 @@
     [self.layer insertSublayer:borderLayer atIndex:0];
 }
 
+- (void)addBorderViewShadowOffset:(UIColor *)shadowColor
+                     cornerRadius:(CGFloat)cornerRadius
+                    shadowOpacity:(CGFloat)shadowOpacity
+                                offset:(CGFloat)offset {
+    CGRect layerShadowOffsset  = self.frame;
+    self.layer.shadowColor = shadowColor.CGColor;
+    self.layer.shadowOffset = CGSizeMake(0, 0);
+    self.layer.cornerRadius = cornerRadius;
+    self.layer.shadowOpacity = shadowOpacity;
+    
+    UIBezierPath *path = [UIBezierPath bezierPathWithRect:CGRectMake(-(offset), -(offset), layerShadowOffsset.size.width + (offset) * 2, layerShadowOffsset.size.height + (offset) * 2)];
+    self.layer.shadowPath = path.CGPath;
+}
+
 
 
 @end

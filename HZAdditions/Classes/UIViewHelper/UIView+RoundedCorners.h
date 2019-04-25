@@ -33,4 +33,18 @@ typedef NS_ENUM(NSInteger, ViewBorder) {
  */
 - (void)addRoundedCornersBorder:(UIRectCorner)corners borderWidth:(CGFloat)width withRadii:(CGSize)radii borderColor:(UIColor *)color;
 
+
+/**
+ 添加UIView的边框阴影（四周都添加）
+ 
+ @param shadowColor 阴影颜色
+ @param cornerRadius 阴影弧度
+ @param shadowOpacity 阴影透明度
+ @param offset 阴影便宜
+ */
+- (void)addBorderViewShadowOffset:(UIColor *)shadowColor
+                     cornerRadius:(CGFloat)cornerRadius
+                    shadowOpacity:(CGFloat)shadowOpacity
+                           offset:(CGFloat)offset;
+
 @end
