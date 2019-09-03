@@ -88,6 +88,8 @@
     //imageView.image = [UIImage RevRectBorderImageColor:[UIColor redColor] forRect:(CGRectMake(0, 0, 50, 50))];
     [self addWaterMark];
     // 百日依山尽
+    // 黄河入海流
+    
     
 }
 
